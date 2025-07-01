@@ -1,7 +1,10 @@
 @import "tailwindcss";
-/* H1 */
+
+* {
+  font-family: "KondolarThai";
+}
+
 .h1 {
-  font-weight: 900; /* Black */
   font-size: 60px;
   line-height: 125%;
   @apply underline;
@@ -12,9 +15,7 @@
   }
 }
 
-/* H2 */
 .h2 {
-  font-weight: 900;
   font-size: 48px;
   line-height: 125%;
 }
@@ -24,9 +25,7 @@
   }
 }
 
-/* H3 */
 .h3 {
-  font-weight: 900;
   font-size: 36px;
   line-height: 125%;
 }
@@ -36,9 +35,7 @@
   }
 }
 
-/* H4 */
 .h4 {
-  font-weight: 900;
   font-size: 32px;
   line-height: 140%;
 }
@@ -48,9 +45,7 @@
   }
 }
 
-/* H5 */
 .h5 {
-  font-weight: 900;
   font-size: 28px;
   line-height: 140%;
 }
@@ -60,9 +55,7 @@
   }
 }
 
-/* H6 */
 .h6 {
-  font-weight: 900;
   font-size: 24px;
   line-height: 140%;
 }
@@ -72,9 +65,7 @@
   }
 }
 
-/* H7 */
 .h7 {
-  font-weight: 900;
   font-size: 21px;
   line-height: 140%;
 }
@@ -84,9 +75,7 @@
   }
 }
 
-/* H8 */
 .h8 {
-  font-weight: 900;
   font-size: 18px;
   line-height: 140%;
 }
@@ -96,9 +85,7 @@
   }
 }
 
-/* H9 */
 .h9 {
-  font-weight: 900;
   font-size: 16px;
   line-height: 140%;
 }
@@ -108,9 +95,7 @@
   }
 }
 
-/* H10 */
 .h10 {
-  font-weight: 900;
   font-size: 15px;
   line-height: 140%;
 }
@@ -120,9 +105,7 @@
   }
 }
 
-/* H11 */
 .h11 {
-  font-weight: 900;
   font-size: 14px;
   line-height: 140%;
 }
