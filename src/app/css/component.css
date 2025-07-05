@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.component {
+  @apply h-screen flex items-center  justify-center text-center;
+}
+.card-sticky {
+  @apply sticky top-0;
+}
