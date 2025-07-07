@@ -5,7 +5,7 @@ import NavigationPage from "./NavigationPage";
 function IntroLandingPage() {
   return (
     <>
-      {/* <div className=" component h6 font-black">
+      <div className=" component h6 font-black">
         เค้าว่ากันว่า
         <br /> สภาใหญ่ใช้ออกสื่อแต่ดีลลับจับมือ
         <br />
@@ -20,7 +20,7 @@ function IntroLandingPage() {
         ศึกแห่งศักดิ์ศรีนี้สะท้อนให้เห็นอย่างชัดเจนว่า  กมธ. มีความสำคัญสุด ๆ
         ในฐานะกลไก ที่ตอบสนองภารกิจนิติบัญญัติ รวมถึง การผลักดันวาระต่าง ๆ
         (อันซ่อนเร้น) ที่พรรคการเมืองต้องการให้เกิดขึ้นในรัฐสภา
-      </div> */}
+      </div>
       <NavigationPage />
     </>
   );

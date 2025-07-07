@@ -1,5 +1,12 @@
+/** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   darkMode: false,
   theme: {
     screens: {
@@ -14,9 +21,8 @@ module.exports = {
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
-    colors: {},
     fontFamily: {
-      sans: ["KondolarThai"],
+      sans: ["KondolarThai", "IBMPlexSansThai"],
     },
   },
 };

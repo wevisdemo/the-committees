@@ -29,17 +29,17 @@ export default function SuggestionListOfCommissions({
 
   return (
     <div
-      className="w-full max-w-md border rounded-md shadow-md bg-white relative"
+      className="w-full max-w-md border  shadow-md bg-white relative rounded-full"
       ref={wrapperRef}
     >
-      <div className="flex items-center border-b p-2">
+      <div className="flex items-center  p-2 bg-[#2322BC] text-white rounded-full">
         <input
           type="text"
           placeholder="พิมพ์/เลือกชื่อ กมธ.ที่คุณสนใจ"
           value={commissions}
           onChange={(e) => setCommissions(e.target.value)}
           onFocus={() => setOpen(true)}
-          className="w-full outline-none px-2 py-1 text-sm"
+          className="w-full outline-none px-2 py-1 text-sm "
         />
         <button
           type="button"
@@ -52,7 +52,7 @@ export default function SuggestionListOfCommissions({
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-5 h-5 text-gray-400"
+            className="w-5 h-5 text-white"
           >
             <path
               strokeLinecap="round"
@@ -61,12 +61,15 @@ export default function SuggestionListOfCommissions({
             />
           </svg>
         </button>
+        <button type="button" onClick={() => setCommissions("")}>
+          ล้าง
+        </button>
       </div>
 
       {open && (
-        <div className="absolute top-full left-0 w-full bg-white border border-t-0 rounded-b-md shadow-md z-10">
-          <div className="grid grid-cols-[1fr_auto] px-4 py-2 text-xs font-bold text-purple-700 border-b bg-gray-50">
-            <div>ชื่อ กมธ.</div>
+        <div className="absolute top-full left-0 w-full bg-white border border-t-0 rounded-b-md  rounded-t-lg shadow-md z-10 mt-1">
+          <div className="grid grid-cols-[1fr_auto] px-4 py-2 text-xs font-bold  border-b bg-[#2322BC] text-white b5  rounded-t-lg">
+            <div className=" text-start">ชื่อ กมธ.</div>
             <div>การประชุม (ครั้ง)</div>
           </div>
 
@@ -80,11 +83,11 @@ export default function SuggestionListOfCommissions({
                   setOpen(false);
                 }}
               >
-                <div>{c.committee}</div>
-                <div className="flex items-center gap-1">
-                  <span className="text-gray-500">{c.count}</span>
+                <div className=" text-start">{c.committee}</div>
+                <div className="flex flex-col items-center gap-1">
+                  <span className=" b4 text-[#2322BC]">{c.sum}</span>
                   <span className="bg-green-200 text-green-800 text-xs px-1 rounded">
-                    {c.sum}
+                    {c.house}
                   </span>
                 </div>
               </div>

@@ -11,7 +11,7 @@
 }
 @media (min-width: 768px) {
   .h1 {
-    font-size: 133px;
+    font-size: 100px;
   }
 }
 
@@ -21,7 +21,7 @@
 }
 @media (min-width: 768px) {
   .h2 {
-    font-size: 96px;
+    font-size: 72px;
   }
 }
 
@@ -31,7 +31,7 @@
 }
 @media (min-width: 768px) {
   .h3 {
-    font-size: 80px;
+    font-size: 60px;
   }
 }
 
@@ -41,7 +41,7 @@
 }
 @media (min-width: 768px) {
   .h4 {
-    font-size: 64px;
+    font-size: 48px;
   }
 }
 
@@ -51,7 +51,7 @@
 }
 @media (min-width: 768px) {
   .h5 {
-    font-size: 48px;
+    font-size: 36px;
   }
 }
 
@@ -61,7 +61,7 @@
 }
 @media (min-width: 768px) {
   .h6 {
-    font-size: 43px;
+    font-size: 32px;
   }
 }
 
@@ -71,7 +71,7 @@
 }
 @media (min-width: 768px) {
   .h7 {
-    font-size: 37px;
+    font-size: 28px;
   }
 }
 
@@ -113,4 +113,24 @@
   .h11 {
     font-size: 21px;
   }
+}
+.b1 {
+  @apply text-[21px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b2 {
+  @apply text-[18px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b3 {
+  @apply text-[16px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b4 {
+  @apply text-[14px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b5 {
+  @apply text-[12px] leading-[150%];
+  font-family: "IBMPlexSansThai";
 }

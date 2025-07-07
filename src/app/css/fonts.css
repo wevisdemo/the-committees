@@ -19,20 +19,20 @@
 }
 
 @font-face {
-  font-family: "IBM Plex Sans Thai";
+  font-family: "IBMPlexSansThai";
   font-display: swap;
   src: url(https://design-systems.wevis.info/IBMPlexSansThai-Regular.otf)
     format("opentype");
 }
 @font-face {
-  font-family: "IBM Plex Sans Thai";
+  font-family: "IBMPlexSansThai";
   font-weight: 600;
   font-display: swap;
   src: url(https://design-systems.wevis.info/IBMPlexSansThai-SemiBold.otf)
     format("opentype");
 }
 @font-face {
-  font-family: "IBM Plex Sans Thai";
+  font-family: "IBMPlexSansThai";
   font-weight: 700;
   font-display: swap;
   src: url(https://design-systems.wevis.info/IBMPlexSansThai-Bold.otf)

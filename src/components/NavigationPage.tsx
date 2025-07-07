@@ -6,8 +6,8 @@ const NavigationPage = () => {
     <div id="navigation" className="component">
       <div className=" flex space-x-3">
         <Link href="/OpenHouse">เปิดบ้าน</Link>
-        <div>เช็ก QC</div>
-        <div>ถูกพูดถึง</div>
+        <Link href="/CheckQC">เช็ก QC</Link>
+        <Link href="/Trending">ถูกพูดถึง</Link>
       </div>
     </div>
   );

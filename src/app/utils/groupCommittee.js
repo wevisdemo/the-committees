@@ -4,10 +4,12 @@ function groupCommittee(data) {
 
   data.forEach((item) => {
     const committeeName = item.committee;
+    const committeeHouse = item.house;
 
     if (!map[committeeName]) {
       map[committeeName] = {
         committee: committeeName,
+        house: committeeHouse,
         sum: 1,
       };
     } else {
