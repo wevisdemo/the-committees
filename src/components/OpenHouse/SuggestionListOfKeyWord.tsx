@@ -1,19 +1,14 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import summarizeKeywords from "@/app/utils/summarizeKeywords";
 
 export default function SuggestionListOfKeyWord({
   keywords,
   setKeywords,
-  commissionsData,
+  filtered,
 }) {
   const [open, setOpen] = useState(false);
   const wrapperRef = useRef(null);
-
-  const filtered = summarizeKeywords(commissionsData).filter((c) =>
-    c.keyword.toLowerCase().includes(keywords.toLowerCase())
-  );
 
   // ✅ Handle click outside
   useEffect(() => {
@@ -60,9 +55,6 @@ export default function SuggestionListOfKeyWord({
               d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z"
             />
           </svg>
-        </button>
-        <button type="button" onClick={() => setKeywords("")}>
-          ล้าง
         </button>
       </div>
 

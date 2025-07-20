@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
 
 export default function ExpandCard({ item }) {
   const [openSub, setOpenSub] = useState({});
@@ -22,21 +22,28 @@ export default function ExpandCard({ item }) {
 
   return (
     <div className="border rounded-lg p-4  shadow-md w-full border-[#FBCB03]   bg-white ">
-      <div className="flex items-center justify-between">
-        <div className="text-lg font-bold">{item.no}</div>
-        <div className="text-sm text-gray-500">{item.date}</div>
+      <div className="flex items-center mb-2 justify-between">
+        <div className="b1 font-bold">{item.no}</div>
+        <div className="text-sm text-[#4F4EC9]">{item.date}</div>
+        <ExternalLink className="w-[17px] cursor-pointer" />
       </div>
       <div className="flex items-center justify-between">
-        <div className="text-lg font-bold">{item.committee}</div>
-        <div className="text-sm text-gray-500">{item.house}</div>
+        <div className="b4">{item.committee}</div>
+        <div
+          className={` ${
+            item.house === "สส." ? "bg-[#55C99C]" : "bg-[#E2822B]"
+          } border-l-[2px] px-2 ml-2 border-l-[#2322BC]`}
+        >
+          {item.house}
+        </div>
       </div>
 
-      <div className="mt-2 text-xs text-[#5E5E5E] flex flex-wrap gap-1 ">
-        <p>ประเด็นที่พบ:</p>
+      <div className="mt-2 items-center text-xs text-[#2322BC] flex flex-wrap gap-1 ">
+        {item.keywords.length > 0 && <p>ประเด็นที่พบ:</p>}
         {item.keywords?.map((k, idx) => (
           <span
             key={idx}
-            className="bg-[#E6ECFF] text-[#475FCB] px-2 py-0.5 rounded-full"
+            className="bg-[#D3D3F2] py-1  border-l-[2px] px-2 ml-2 border-l-[#2322BC] "
           >
             #{k}
           </span>

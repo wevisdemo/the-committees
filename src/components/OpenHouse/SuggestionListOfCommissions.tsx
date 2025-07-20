@@ -61,9 +61,6 @@ export default function SuggestionListOfCommissions({
             />
           </svg>
         </button>
-        <button type="button" onClick={() => setCommissions("")}>
-          ล้าง
-        </button>
       </div>
 
       {open && (
@@ -86,9 +83,14 @@ export default function SuggestionListOfCommissions({
                 <div className=" text-start">{c.committee}</div>
                 <div className="flex flex-col items-center gap-1">
                   <span className=" b4 text-[#2322BC]">{c.sum}</span>
-                  <span className="bg-green-200 text-green-800 text-xs px-1 rounded">
+
+                  <div
+                    className={` ${
+                      c.house === "สส." ? "bg-[#55C99C]" : "bg-[#E2822B]"
+                    } border-l-[2px] px-2 ml-2 border-l-[#2322BC]`}
+                  >
                     {c.house}
-                  </span>
+                  </div>
                 </div>
               </div>
             ))}
