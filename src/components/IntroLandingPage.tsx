@@ -58,7 +58,7 @@ function IntroLandingPage() {
             หากย้อนดูศึกชิงเก้าอี้
             <br /> ประธานคณะกรรมาธิการ
           </span>
-          <br /> หรือ <span className=" font-bold">'กมธ.'</span> ระหว่าง
+          <br /> หรือ <span className=" font-bold">{`'กมธ.'`}</span> ระหว่าง
         </div>
         <div>
           <div className="h5 mt-5 bg-[#E2822B] font-bold py-2 px-4 rotate-3">
