@@ -4,7 +4,7 @@ import part_2 from "../../../public/data/the_committees_part_2_data.json";
 
 const SurveyPage = () => {
   return (
-    <div className=" component flex flex-col items-center justify-center p-4">
+    <div className="  flex flex-col items-center justify-center p-4">
       <p className=" b5  text-center">
         <span className="font-bold">Disclaimer: </span>
         ข้อมูลนี้เก็บศึกษาและตั้งข้อสังเกตโดย WeVis ซึ่งรวบรวมเฉพาะ

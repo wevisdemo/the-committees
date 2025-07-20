@@ -1,3 +1,5 @@
+import CommiteeOpenData from "@/components/CheckQC/CommiteeOpenData";
+import CommiteeSurvey from "@/components/CheckQC/CommiteeSurvey";
 import IntroLandingPage from "@/components/CheckQC/IntroLandingPage";
 import SurveyPage from "@/components/CheckQC/SurveyPage";
 import React from "react";
@@ -11,6 +13,8 @@ const CheckQC = () => {
     >
       <IntroLandingPage />
       <SurveyPage />
+      <CommiteeSurvey />
+      <CommiteeOpenData />
     </div>
   );
 };
