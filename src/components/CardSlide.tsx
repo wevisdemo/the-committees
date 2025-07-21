@@ -3,10 +3,10 @@
 import Image from "next/image";
 import React from "react";
 
-import prefix from "../../public/assets/images/prefix.png";
-import people_01 from "../../public/assets/images/people_01.png";
-import people_02 from "../../public/assets/images/people_02.png";
-import people_03 from "../../public/assets/images/people_03.png";
+import prefix from "assets/images/prefix.png";
+import people_01 from "assets/images/people_01.png";
+import people_02 from "assets/images/people_02.png";
+import people_03 from "assets/images/people_03.png";
 
 const CardSlide = () => {
   return (

@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import openhouse_02 from "../../../public/assets/images/openhouse_02.png";
-import title_openhouse from "../../../public/assets/images/title_openhouse.png";
-import pass from "../../../public/assets/images/pass.png";
-import bg_openhouse from "../../../public/assets/images/bg_openhouse.png";
-import bg_overlay from "../../../public/assets/images/bg_overlay.png";
-import openhouse from "../../../public/assets/images/openhouse.png";
+import openhouse_02 from "assets/images/openhouse_02.png";
+import title_openhouse from "assets/images/title_openhouse.png";
+import pass from "assets/images/pass.png";
+import bg_openhouse from "assets/images/bg_openhouse.png";
+import bg_overlay from "assets/images/bg_overlay.png";
+import openhouse from "assets/images/openhouse.png";
 
 const ReasonPage = () => {
   return (

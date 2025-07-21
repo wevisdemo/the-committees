@@ -1,8 +1,6 @@
-import type { NextConfig } from "next";
 const repoName = "the-committees";
 
-const nextConfig: NextConfig = {
-  output: "export", // 👈 สำคัญ: export static
+const nextConfig = {
   basePath: `/${repoName}`,
   assetPrefix: `/${repoName}/`,
   images: {
@@ -10,4 +8,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

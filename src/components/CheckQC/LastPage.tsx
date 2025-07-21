@@ -3,7 +3,7 @@
 import Link from "next/dist/client/link";
 import React from "react";
 import Image from "next/image";
-import last_qc from "../../../public/assets/images/last_qc.png";
+import last_qc from "assets/images/last_qc.png";
 
 const LastPage = () => {
   return (

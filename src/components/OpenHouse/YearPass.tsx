@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import label_01 from "../../../public/assets/images/label_01.png";
-import house_01 from "../../../public/assets/images/house_01.png";
-import label_02 from "../../../public/assets/images/label_02.png";
-import house_02 from "../../../public/assets/images/house_02.png";
-import label_03 from "../../../public/assets/images/label_03.png";
-import ball_01 from "../../../public/assets/images/ball_01.png";
-import ball_02 from "../../../public/assets/images/ball_02.png";
+import label_01 from "assets/images/label_01.png";
+import house_01 from "assets/images/house_01.png";
+import label_02 from "assets/images/label_02.png";
+import house_02 from "assets/images/house_02.png";
+import label_03 from "assets/images/label_03.png";
+import ball_01 from "assets/images/ball_01.png";
+import ball_02 from "assets/images/ball_02.png";
 
 const YearPass = () => {
   return (

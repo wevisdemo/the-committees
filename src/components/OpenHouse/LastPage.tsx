@@ -3,7 +3,7 @@
 import Link from "next/dist/client/link";
 import React from "react";
 import Image from "next/image";
-import last_openhouse from "../../../public/assets/images/last_openhouse.png";
+import last_openhouse from "assets/images/last_openhouse.png";
 
 const LastPage = () => {
   return (

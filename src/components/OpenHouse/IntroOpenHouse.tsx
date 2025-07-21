@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import React from "react";
-import openhouse_bg from "../../../public/assets/images/openhouse_bg.png";
-import batch_openhouse from "../../../public/assets/images/batch_openhouse.png";
+import openhouse_bg from "assets/images/openhouse_bg.png";
+import batch_openhouse from "assets/images/batch_openhouse.png";
 function IntroOpenHouse() {
   return (
     <div className="component relative">

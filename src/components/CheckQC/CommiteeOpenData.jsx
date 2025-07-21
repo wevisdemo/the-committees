@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import data from "../../../public/data/the_committees_part_2_OpenDataSuggestion.json";
+import data from "public/data/the_committees_part_2_OpenDataSuggestion.json";
 
 const CommiteeOpenData = () => {
   const [toppic1, setToppic1] = React.useState(0);

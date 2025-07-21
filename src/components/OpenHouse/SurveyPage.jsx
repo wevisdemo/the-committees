@@ -2,14 +2,14 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import part_1 from "../../../public/data/the_committees_part_1_data.json";
+import part_1 from "public/data/the_committees_part_1_data.json";
 import SuggestionListOfCommissions from "./SuggestionListOfCommissions";
 import SuggestionListOfKeyWord from "./SuggestionListOfKeyWord";
 import filterByCommitteeAndKeyword from "@/app/utils/filterByCommitteeAndKeyword";
 import ExpandCard from "./ExpandCard";
 import { ArrowDown, ArrowDownToLine } from "lucide-react";
 import summarizeKeywords from "@/app/utils/summarizeKeywords";
-import clear from "../../../public/assets/images/clear.png";
+import clear from "assets/images/clear.png";
 
 const SurveyPage = () => {
   const [commissions, setCommissions] = useState("");

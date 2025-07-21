@@ -1,6 +1,6 @@
 import React from "react";
 import CommitteeChart from "./CommitteeChart";
-import part_2 from "../../../public/data/the_committees_part_2_data.json";
+import part_2 from "public/data/the_committees_part_2_data.json";
 
 const SurveyPage = () => {
   return (

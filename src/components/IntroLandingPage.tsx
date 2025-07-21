@@ -4,10 +4,10 @@ import Image from "next/image";
 import React from "react";
 import CardSlide from "./CardSlide";
 import NavigationPage from "./NavigationPage";
-import landing_01 from "../../public/assets/images/landing_01.png";
-import landing_02 from "../../public/assets/images/landing_02.png";
-import landing_03 from "../../public/assets/images/landing_03.png";
-import landing_toppic from "../../public/assets/images/landing_toppic.png";
+import landing_01 from "assets/images/landing_01.png";
+import landing_02 from "assets/images/landing_02.png";
+import landing_03 from "assets/images/landing_03.png";
+import landing_toppic from "assets/images/landing_toppic.png";
 
 function IntroLandingPage() {
   return (

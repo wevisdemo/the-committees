@@ -38,7 +38,8 @@
     "src/components/CheckQC/CommitteeList.jsx",
     "src/components/CheckQC/CommitteeFilter.jsx",
     "src/components/OpenHouse/SurveyPage.jsx",
-    "src/components/OpenHouse/SuggestionListOfKeyWord.jsx"
+    "src/components/OpenHouse/SuggestionListOfKeyWord.jsx",
+    "next.config.js"
   ],
   "exclude": ["node_modules"]
 }

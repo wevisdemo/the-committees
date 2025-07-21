@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import the_committees_part_2_dropdown from "../../../public/data/the_committees_part_2_dropdown.json";
+import the_committees_part_2_dropdown from "public/data/the_committees_part_2_dropdown.json";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 const CommiteeSurvey = () => {

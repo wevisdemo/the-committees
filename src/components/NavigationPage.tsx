@@ -3,10 +3,10 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import navigation from "../../public/assets/images/navigation.png";
-import navigation_01 from "../../public/assets/images/navigation_01.png";
-import navigation_02 from "../../public/assets/images/navigation_02.png";
-import navigation_03 from "../../public/assets/images/navigation_03.png";
+import navigation from "assets/images/navigation.png";
+import navigation_01 from "assets/images/navigation_01.png";
+import navigation_02 from "assets/images/navigation_02.png";
+import navigation_03 from "assets/images/navigation_03.png";
 import { Plus } from "lucide-react";
 
 const NavigationPage = () => {
