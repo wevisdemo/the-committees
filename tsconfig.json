@@ -18,10 +18,27 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/utils/groupCommittee.js", "src/components/CheckQC/CommitteeChart.jsx", "src/components/CheckQC/CommiteeSurvey.jsx", "src/components/CheckQC/CommiteeOpenData.jsx", "src/components/CheckQC/CommiteeDetails.jsx", "src/components/OpenHouse/SuggestionListOfCommissions.jsx", "src/components/OpenHouse/ExpandCard.jsx", "src/components/CheckQC/CommitteeList.jsx", "src/components/CheckQC/CommitteeFilter.jsx", "src/components/OpenHouse/SurveyPage.jsx", "src/components/OpenHouse/SuggestionListOfKeyWord.jsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/utils/groupCommittee.js",
+    "src/components/CheckQC/CommitteeChart.jsx",
+    "src/components/CheckQC/CommiteeSurvey.jsx",
+    "src/components/CheckQC/CommiteeOpenData.jsx",
+    "src/components/CheckQC/CommiteeDetails.jsx",
+    "src/components/OpenHouse/SuggestionListOfCommissions.jsx",
+    "src/components/OpenHouse/ExpandCard.jsx",
+    "src/components/CheckQC/CommitteeList.jsx",
+    "src/components/CheckQC/CommitteeFilter.jsx",
+    "src/components/OpenHouse/SurveyPage.jsx",
+    "src/components/OpenHouse/SuggestionListOfKeyWord.jsx"
+  ],
   "exclude": ["node_modules"]
 }
