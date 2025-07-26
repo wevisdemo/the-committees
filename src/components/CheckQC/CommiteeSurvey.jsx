@@ -3,15 +3,23 @@
 import React, { useState } from "react";
 import the_committees_part_2_dropdown from "public/data/the_committees_part_2_dropdown.json";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import Image from "next/image";
+import lamp from "assets/images/lamp.png";
+import base from "assets/images/base.png";
+import keyboard from "assets/images/keyboard.png";
 
 const CommiteeSurvey = () => {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState("เว็บไซต์และข้อมูลทั่วไป");
 
   return (
-    <div className="component flex flex-col ">
-      <div>กมธ. ยังทำหน้าที่ เปิดเผยข้อมูล ‘เหล่านี้’ ได้ไม่ดีพอ ?</div>
-      <div className=" bg-white  max-w-[540px] w-full b rounded-[10px] p-3 border border-[#2322BC]  relative">
+    <div className="flex items-center  justify-center text-center  flex-col ">
+      <Image
+        src={lamp}
+        alt="Background"
+        className="max-w-[388px] mx-auto py-6"
+      />
+      <div className=" bg-white  max-w-[540px] mt-5 w-full  rounded-[10px] p-3 border border-[#2322BC]  relative">
         <div className=" bg-[#2322BC] rounded-[10px] p-4">
           <label className="block text-white b4 mb-2 font-bold">
             กดเลือกสำรวจอีก 12 ประเภทข้อมูล
@@ -55,6 +63,16 @@ const CommiteeSurvey = () => {
           </div>
         </div>
       </div>
+      <Image
+        src={base}
+        alt="Background"
+        className="max-w-[228px] mx-auto pb-6"
+      />
+      <Image
+        src={keyboard}
+        alt="Background"
+        className="max-w-[443px] mx-auto py-6"
+      />
     </div>
   );
 };

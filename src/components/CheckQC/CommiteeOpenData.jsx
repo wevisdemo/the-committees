@@ -2,6 +2,12 @@
 
 import React from "react";
 import data from "public/data/the_committees_part_2_OpenDataSuggestion.json";
+import Image from "next/image";
+import head_question from "assets/images/head_question.png";
+import uk from "assets/images/uk.png";
+import aud from "assets/images/aud.png";
+import glass from "assets/images/glass.png";
+import qc_toppic_01 from "assets/images/qc_toppic_01.png";
 
 const CommiteeOpenData = () => {
   const [toppic1, setToppic1] = React.useState(0);
@@ -19,7 +25,12 @@ const CommiteeOpenData = () => {
   }
   return (
     <div className=" py-10 flex flex-col ">
-      <div className=" max-w-[627px] mx-auto bg-white w-full rounded-[10px] px-10 py-4  text-center">
+      <Image
+        src={head_question}
+        alt="Background"
+        className="max-w-[627px] mx-auto"
+      />
+      <div className=" max-w-[627px] mx-auto bg-white w-full rounded-b-[10px] px-10 py-4  text-center">
         <p className="b2 font-bold">
           นอกเหนือจากการเปิดข้อมูล
           <br /> กมธ. สามารถเพิ่มภาระรับผิดชอบ
@@ -27,7 +38,46 @@ const CommiteeOpenData = () => {
           (accountability)
           <br /> ในแนวทางไหนได้อีกบ้าง ?
         </p>
-        {/* //// */}
+        <p className=" b4 mt-3">
+          แม้จะยังไม่มีมาตรฐานสากล
+          <br /> เรื่องภาระรับผิดชอบที่ กมธ. ต้องปฏิบัติ
+          <br />
+          แต่แนวทางการสร้างความรับผิดชอบของ
+        </p>
+
+        <div className=" flex justify-center mt-5 space-x-5">
+          <div>
+            <Image src={uk} alt="Background" className="max-w-[90px] mx-auto" />
+            <p className="b4 font-bold">
+              รัฐสภาสหราช
+              <br /> อาณาจักร
+            </p>
+          </div>
+          <div>
+            <Image
+              src={aud}
+              alt="Background"
+              className="max-w-[90px] mx-auto"
+            />
+            <p className="b4 font-bold">ออสเตรเลีย</p>
+          </div>
+        </div>
+        <p className=" b4 mt-3">
+          อาจเป็นตัวอย่างที่ดีที่ให้รัฐสภาไทย
+          <br />
+          ใช้เป็นแนวทางเพื่อเพิ่มความรับผิดชอบ
+          <br /> ของ กมธ. ที่มากขึ้นได้
+        </p>
+        <Image
+          src={glass}
+          alt="Background"
+          className="max-w-[300px] mt-5 mx-auto"
+        />
+        <Image
+          src={qc_toppic_01}
+          alt="Background"
+          className="max-w-[420px] mt-10 mx-auto"
+        />
         <div
           className="flex space-x-5  justify-center mt-10
          "

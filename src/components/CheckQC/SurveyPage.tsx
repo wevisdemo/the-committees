@@ -4,8 +4,8 @@ import part_2 from "public/data/the_committees_part_2_data.json";
 
 const SurveyPage = () => {
   return (
-    <div className="  flex flex-col items-center justify-center p-4">
-      <p className=" b5  text-center">
+    <div className="  flex flex-col items-center justify-center  mt-5">
+      <p className=" b5  text-center  border border-[#2322BC] p-4 border-dashed rounded-lg">
         <span className="font-bold">Disclaimer: </span>
         ข้อมูลนี้เก็บศึกษาและตั้งข้อสังเกตโดย WeVis ซึ่งรวบรวมเฉพาะ
         <br />

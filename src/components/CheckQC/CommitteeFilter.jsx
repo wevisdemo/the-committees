@@ -1,4 +1,9 @@
+"use client";
+
 import { useState } from "react";
+import Image from "next/image";
+import off from "assets/images/off.png";
+import on from "assets/images/on.png";
 
 export default function CommitteeFilter({ onChange }) {
   const [showRep, setShowRep] = useState(true);
@@ -28,38 +33,72 @@ export default function CommitteeFilter({ onChange }) {
   };
 
   return (
-    <div className="grid max-w-[360px] text-[#2322BC] mx-auto grid-cols-2 gap-2 justify-center">
+    <div className="grid max-w-[360px] text-[#2322BC] mx-auto grid-cols-2 gap-2 justify-center ">
       <button
         onClick={() => handleChange("showRep")}
-        className={`px-4 py-2 rounded border  border-[#2322BC]  ${
+        className={`px-4 py-1 rounded-lg border cursor-pointer  border-[#2322BC] flex-row flex justify-center items-center  ${
           showRep ? "bg-[#55C99C] " : "bg-white text-gray-500"
         }`}
       >
-        ✅ สส.
+        {showRep ? (
+          <Image
+            src={on}
+            alt="Background"
+            className="w-[16px] text-[#2322BC] mr-2 "
+          />
+        ) : (
+          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
+        )}
+
+        <p>สส.</p>
       </button>
       <button
         onClick={() => handleChange("showSen")}
-        className={`px-4 py-2 rounded border  border-[#2322BC]  ${
+        className={`px-4 py-1 rounded-lg border cursor-pointer  border-[#2322BC] flex-row flex justify-center items-center  ${
           showSen ? "bg-[#E89B55] " : "bg-white text-gray-500"
         }`}
       >
-        ✅ สว.
+        {showSen ? (
+          <Image
+            src={on}
+            alt="Background"
+            className="w-[16px] text-[#2322BC] mr-2 "
+          />
+        ) : (
+          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2 " />
+        )}
+
+        <p>สว.</p>
       </button>
       <button
         onClick={() => handleChange("showOpen")}
-        className={`px-4 py-2 rounded border  border-[#2322BC] ${
-          showOpen ? "bg-blue-100 text-gray-500" : "bg-white "
-        }`}
+        className={`px-4 py-1 rounded-lg border flex-row flex justify-center items-center cursor-pointer  border-[#2322BC]  hover:bg-[#D3D3F2]`}
       >
-        เปิดเผยข้อมูล
+        {showOpen ? (
+          <Image
+            src={on}
+            alt="Background"
+            className="w-[16px] text-[#2322BC] mr-2 "
+          />
+        ) : (
+          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
+        )}
+        <p>เปิดเผยข้อมูล</p>
       </button>
       <button
         onClick={() => handleChange("showClose")}
-        className={`px-4 py-2 rounded border  border-[#2322BC] ${
-          showClose ? "bg-gray-200 text-gray-500" : "bg-white "
-        }`}
+        className={`px-4 py-1 rounded-lg border flex-row flex justify-center items-center cursor-pointer  border-[#2322BC] hover:bg-[#D3D3F2]`}
       >
-        ไม่เปิดเผยข้อมูล
+        {showClose ? (
+          <Image
+            src={on}
+            alt="Background"
+            className="w-[16px] text-[#2322BC] mr-2 "
+          />
+        ) : (
+          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
+        )}
+        <p>ไม่เปิดเผยข้อมูล</p>
       </button>
     </div>
   );

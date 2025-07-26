@@ -1,11 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { ExternalLink } from "lucide-react"; // ใช้ icon ถ้าใช้ lucide-react หรือปรับเป็นของคุณ
+import { ExternalLink } from "lucide-react";
+import Image from "next/image";
+import open from "assets/images/open.png";
+import close from "assets/images/close.png";
 
 export default function CommitteeList({ data }) {
   const [showAll, setShowAll] = useState(false);
-  const visibleItems = showAll ? data?.lists : data?.lists.slice(0, 10); // default โชว์ 6 อันแรก
+  const visibleItems = showAll ? data?.lists : data?.lists?.slice(0, 10); // default โชว์ 6 อันแรก
 
   const handleToggle = () => {
     setShowAll(!showAll);
@@ -20,7 +23,7 @@ export default function CommitteeList({ data }) {
       >
         <p>รายชื่อ กมธ. ประเภท สส.</p>
         <p>
-          เปิด {data?.open} / ไม่เปิด {data?.close}
+          เปิด {data?.open ?? 0} / ไม่เปิด {data?.close ?? 0}
         </p>
       </div>
 
@@ -32,31 +35,48 @@ export default function CommitteeList({ data }) {
           }`}
         >
           <div className=" text-start">
-            <p className="max-w-[544px]">{item.title}</p>
-            <span
-              className={`px-2 py-0.5 rounded text-xs font-medium ${"bg-[#E5EAF0] text-[#65707A]"}`}
+            <p
+              className={`max-w-[544px] mb-1 ${!item.open ? "opacity-50" : ""}`}
             >
-              {item.open ? "เปิด" : "ไม่เปิด"}
-            </span>
+              {item.title}
+            </p>
+
+            {item.open ? (
+              <Image
+                src={open}
+                alt="Background"
+                className="w-[44px] h-[18px]"
+              />
+            ) : (
+              <Image
+                src={close}
+                alt="Background"
+                className="w-[55px] h-[18px] "
+              />
+            )}
           </div>
           <div className="flex  space-x-2">
             <a href={item.site} target="_blank" rel="noopener noreferrer">
-              <ExternalLink className="w-4 h-4 text-[#65707A]" />
+              <ExternalLink className="w-4 h-4 text-[#2322BC]" />
             </a>
           </div>
         </div>
       ))}
 
-      <button
-        onClick={handleToggle}
-        className="mt-4 w-full text-center text-[#2461A4] underline"
-      >
-        {showAll
-          ? "ซ่อนรายการ"
-          : `ดูอีก ${
-              data?.lists.length - visibleItems?.length
-            } กมธ. ที่เหลือ +`}
-      </button>
+      {(data?.lists?.length ?? 0) - (visibleItems?.length ?? 0) > 0 ? (
+        <button
+          onClick={handleToggle}
+          className="mt-4 w-full text-center text-[#2322BC] underline b5 cursor-pointer"
+        >
+          {showAll
+            ? "ซ่อนรายการ"
+            : `ดูอีก ${
+                (data?.lists?.length ?? 0) - (visibleItems?.length ?? 0)
+              } กมธ. ที่เหลือ +`}
+        </button>
+      ) : (
+        <div className="b5 text-[#2322BC] mt-5">- ไม่มีข้อมูล -</div>
+      )}
     </div>
   );
 }
