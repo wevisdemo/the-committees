@@ -4,6 +4,7 @@ import IntroLandingPage from "@/components/CheckQC/IntroLandingPage";
 import LastPage from "@/components/CheckQC/LastPage";
 import SurveyPage from "@/components/CheckQC/SurveyPage";
 import React from "react";
+import BenefitPage from "@/components/CheckQC/BenefitPage";
 
 const CheckQC = () => {
   return (
@@ -16,6 +17,7 @@ const CheckQC = () => {
       <SurveyPage />
       <CommiteeSurvey />
       <CommiteeOpenData />
+      <BenefitPage />
       <LastPage />
     </div>
   );

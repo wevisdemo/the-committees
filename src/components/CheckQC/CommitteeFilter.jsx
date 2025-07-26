@@ -81,7 +81,7 @@ export default function CommitteeFilter({ onChange }) {
             className="w-[16px] text-[#2322BC] mr-2 "
           />
         ) : (
-          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
+          <Image src={off} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
         )}
         <p>เปิดเผยข้อมูล</p>
       </button>
@@ -96,7 +96,7 @@ export default function CommitteeFilter({ onChange }) {
             className="w-[16px] text-[#2322BC] mr-2 "
           />
         ) : (
-          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
+          <Image src={off} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
         )}
         <p>ไม่เปิดเผยข้อมูล</p>
       </button>
