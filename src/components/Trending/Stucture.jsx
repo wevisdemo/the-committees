@@ -130,8 +130,8 @@ const Stucture = () => {
       </div>
       <div className=" flex max-w-[485px] space-x-10 mx-auto my-10 ">
         <Image src={list_01} alt="Background" className=" max-w-[141px] " />
-        <Image src={list_01} alt="Background" className="max-w-[141px] " />
-        <Image src={list_01} alt="Background" className="max-w-[141px]" />
+        <Image src={list_02} alt="Background" className="max-w-[141px] " />
+        <Image src={list_03} alt="Background" className="max-w-[141px]" />
       </div>
       <div className="b3 font-bold text-[#2322BC] text-center mt-4">
         <b>
