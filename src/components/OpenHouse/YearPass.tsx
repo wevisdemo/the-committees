@@ -17,7 +17,7 @@ const YearPass = () => {
       <Image
         src={label_01}
         alt="Background"
-        className="  z-10 mx-auto max-h-[65px] mt-5 w-auto bg-repeat-x bg-center"
+        className="  z-10 mx-auto w-full mt-5 bg-repeat-x bg-center"
       />
       <p className="b1 font-bold text-[#2BBB83] mt-5">กมธ.การอุตสาหกรรม</p>
       <p className=" b5">เป็น กมธ. ฝั่ง </p>
@@ -26,9 +26,9 @@ const YearPass = () => {
       <Image
         src={house_01}
         alt="Background"
-        className="  z-10 mx-auto max-w-[170px] md:max-w-[230px] mt-5"
+        className="  z-10 mx-auto w-[396px] mt-5"
       />
-      <div className="max-w-[170px] md:max-w-[230px] bg-[#2BBB83] mx-auto px-5 py-4 b5 text-[#2322BC]">
+      <div className="w-[396px] bg-[#2BBB83] mx-auto px-5 py-4 b5 text-[#2322BC]">
         <p className=" b5">
           โดยประเด็นที่พูดคุยกัน
           <br />
@@ -49,7 +49,7 @@ const YearPass = () => {
       <Image
         src={label_02}
         alt="Background"
-        className="  z-10 max-h-[65px] w-auto mx-auto mt-5"
+        className="  z-10 w-full mx-auto mt-5"
       />
       <p className="b1 font-bold text-[#E2822B] mt-5">
         กมธ.ติดตาม
@@ -62,9 +62,9 @@ const YearPass = () => {
       <Image
         src={house_02}
         alt="Background"
-        className="  z-10 mx-auto max-w-[170px] md:max-w-[230px] mt-5"
+        className="  z-10 mx-auto w-[396px] mt-5"
       />
-      <div className="max-w-[170px] md:max-w-[230px] bg-[#E2822B] mx-auto px-5 py-4 b5 text-[#2322BC]">
+      <div className="w-[396px] bg-[#E2822B] mx-auto px-5 py-4 b5 text-[#2322BC]">
         <p className=" b5">
           โดยประเด็นที่พูดคุยกัน
           <br />
@@ -85,7 +85,7 @@ const YearPass = () => {
       <Image
         src={label_03}
         alt="Background"
-        className="  z-10 max-h-[65px] mt-5 mx-auto w-auto"
+        className="  z-10 w-full mt-5 mx-auto "
       />
       <div className=" b3 font-bold text-[#2BBB83] mt-5">
         5 คีย์เวิร์ดที่พบบ่อย
