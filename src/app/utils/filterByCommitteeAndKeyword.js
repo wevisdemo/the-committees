@@ -7,7 +7,7 @@ function filterByCommitteeAndKeyword(data, committeeName, keyword) {
     // ถ้าไม่ได้ส่ง keyword มา → ผ่าน
     const matchKeyword =
       !keyword ||
-      item.keywords.filter((k) =>
+      item.keywords.some((k) =>
         k.toLowerCase().includes(keyword.toLowerCase())
       );
 
