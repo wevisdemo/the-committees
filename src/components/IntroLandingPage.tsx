@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import CardSlide from "./CardSlide";
 import NavigationPage from "./NavigationPage";
 import landing_01 from "assets/images/landing_01.png";
@@ -10,6 +10,22 @@ import landing_03 from "assets/images/landing_03.png";
 import landing_toppic from "assets/images/landing_toppic.png";
 
 function IntroLandingPage() {
+  const actionRef = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (!actionRef.current) return;
+      const rect = actionRef.current.getBoundingClientRect();
+      const visible =
+        rect.top + rect.height < window.innerHeight && rect.bottom > 0;
+      setIsVisible(visible);
+    };
+    window.addEventListener("scroll", onScroll);
+    onScroll();
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <>
       <div className=" relative component h6 bg-[#FEF5CD] text-[#2322BC] font-black">
@@ -18,18 +34,27 @@ function IntroLandingPage() {
           alt="Background"
           className="absolute top-0 left-[50.5%] translate-x-[-49%]  h-full "
         />
-        <div className=" relative z-10 flex items-center justify-center">
+        <div
+          className=" relative z-10 flex items-center justify-center"
+          id="Page-2"
+        >
           เค้าว่ากันว่า
           <br /> สภาใหญ่ใช้ออกสื่อแต่ดีลลับจับมือ
           <br />
           คือการประชุมคณะกรรมาธิการ ?
         </div>
       </div>
-      <div className="component relative flex flex-col ">
+      <div
+        className="component relative flex flex-col "
+        id="action_page"
+        ref={actionRef}
+      >
         <Image
           src={landing_03}
           alt="Background"
-          className="absolute top-0 right-[0]  w-[50%]  h-full "
+          className={`absolute top-0 right-0 w-[50%] h-full transition-transform duration-700 ${
+            isVisible ? "translate-x-[100%]" : "translate-x-0"
+          }`}
         />
         <Image
           src={landing_toppic}
@@ -39,7 +64,9 @@ function IntroLandingPage() {
         <Image
           src={landing_02}
           alt="Background"
-          className="absolute top-0 left-[0] z-10  w-[50%]  h-full "
+          className={`absolute top-0 left-0 z-10 w-[50%] h-full transition-transform duration-700 ${
+            isVisible ? "-translate-x-[100%]" : "translate-x-0"
+          }`}
         />
         <div>
           <p className="h7 mt-3 font-bold">
@@ -72,7 +99,7 @@ function IntroLandingPage() {
         </div>
       </div>
       <CardSlide />
-      <div className="component b2">
+      <div className="component b2" id="action_page_1">
         <div>
           ศึกแห่งศักดิ์ศรีนี้สะท้อนให้เห็นอย่างชัดเจนว่า
           <br />  กมธ. มีความสำคัญสุด ๆ{" "}
