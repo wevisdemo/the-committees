@@ -6,19 +6,45 @@ import Link from "next/link";
 import navigation from "assets/images/navigation.png";
 import navigation_01 from "assets/images/navigation_01.png";
 import modal_01 from "assets/images/modal_01.png";
-import modal_card_01 from "assets/images/modal_card_01.png";
-import modal_card_02 from "assets/images/modal_card_02.png";
-import modal_card_03 from "assets/images/modal_card_03.png";
-import modal_card_04 from "assets/images/modal_card_04.png";
 import navigation_02 from "assets/images/navigation_02.png";
 import navigation_03 from "assets/images/navigation_03.png";
+import modal_card from "assets/images/modal_card.png";
+import modal_card_01 from "assets/images/modal_card_01.png";
+import modal_card_hover from "assets/images/modal_card_hover.png";
 import modal_close from "assets/images/modal_close.png";
+import arrow_down_blue from "assets/images/arrow_down_blue.svg";
+import arrow_down_white from "assets/images/arrow_down_white.svg";
 import ModalDetail from "./ModalDetail";
-import { Plus } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import { Minus, Plus, TriangleAlert, CircleAlert } from "lucide-react";
 
 const NavigationPage = () => {
   const [open, setOpen] = useState(false);
+  const [openCards, setOpenCards] = useState<number[]>([]);
 
+  const handleToggleCard = (index: number) => {
+    setOpenCards((prev) =>
+      prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
+    );
+  };
+  const modal = [
+    {
+      title: "อำนาจนิติบัญญัติ",
+      des: "การตรา/ยกเลิก/แก้ไขกฎหมาย\n\n การอนุมัติพระราชกำหนด\n\n และการแก้ไขเพิ่มเติม\n\nรัฐธรรมนูญ",
+    },
+    {
+      title: "ให้ความเห็นชอบ\n\n เรื่องสำคัญของประเทศ",
+      des: "ให้ความเห็นชอบเรื่องสำคัญ\n\nที่ส่งผลกระทบต่อประชาชน\n\n หรือผลประโยชน์ของชาติ เช่น\n\n การตั้งผู้สำเร็จราชการแทน\n\nพระองค์ การสืบราชสมบัติ\n\n การประกาศสงคราม การทำ\n\nหนังสือสัญญาระหว่างประเทศ\n\nที่มีผลต่อการเปลี่ยนแปลง\n\nอาณาเขตหรืออำนาจอธิปไตย\n\nของชาติ เป็นต้น",
+    },
+    {
+      title: "ควบคุมการบริหาร\n\n ราชการแผ่นดิน",
+      des: "ควบคุมและตรวจสอบการ\n\nบริหารงานของรัฐบาล\n\n ให้เป็นไปตามนโยบายที่แถลงไว้\n\nต่อรัฐสภา โดยวิธีการต่าง ๆ\n\n เช่น การตั้งกระทู้ถาม\n\n การตรวจสอบโดย\n\nคณะกรรมาธิการ การขอเปิด\n\nอภิปรายทั่วไปเพื่อให้คณะ\n\nรัฐมนตรีแถลงข้อเท็จจริง\n\n และการขอเปิดอภิปรายทั่วไป\n\nเพื่อลงมติไม่ไว้วางใจ",
+    },
+    {
+      title: "อำนาจอื่น ๆ ",
+      des: "เช่น วุฒิสภามีอำนาจ\n\nสรรหาบุคคลมาดำรงตำแหน่ง\n\nในองค์กรต่าง ๆ อำนาจ\n\nถอดถอนผู้ดำรงตำแหน่งทาง\n\nการเมือง ตามที่บัญญัติไว้\n\nในรัฐธรรมนูญ",
+    },
+  ];
   return (
     <div id="navigation" className="component flex-col text-[#2322BC] relative">
       <Image
@@ -80,28 +106,51 @@ const NavigationPage = () => {
           </div>
           <p className=" text-white b5 my-3 opacity-50">กดเพื่อเลือกดูข้อมูล</p>
           <div className=" flex mt-5 space-x-3">
-            <Image
-              src={modal_card_01}
-              alt="Background"
-              className=" w-[192px] "
-            />
-            <Image
-              src={modal_card_02}
-              alt="Background"
-              className=" w-[192px] "
-            />
-            <Image
-              src={modal_card_03}
-              alt="Background"
-              className=" w-[192px] "
-            />
-            <Image
-              src={modal_card_04}
-              alt="Background"
-              className=" w-[192px] "
-            />
+            {modal.map((m, index) => (
+              <div
+                className="relative w-[187px] h-[54px] bg-white group cursor-pointer"
+                onClick={() => handleToggleCard(index)}
+                key={index}
+              >
+                <Image
+                  src={modal_card}
+                  alt="Background"
+                  className=" w-[15px] bg-[#2322BC]  absolute z-20 top-0 left-0 block group-hover:hidden"
+                />
+                <Image
+                  src={modal_card_hover}
+                  alt="Background"
+                  className=" w-[15px] bg-[#2322BC]  absolute z-20 top-0 left-0 hidden group-hover:block"
+                />
+                <div className="bg-white absolute w-[187px] b5 font-bold flex items-center justify-center z-[10] border border-[#2322BC] h-[54px] group-hover:bg-[#D3D3F2] transition-colors">
+                  <div className=" flex items-center">
+                    <div className="flex flex-col">
+                      <ReactMarkdown>{`${m.title}`}</ReactMarkdown>
+                    </div>
+                    {openCards.includes(index) ? (
+                      <Minus className="w-[12px] ml-2 text-[#2322BC]" />
+                    ) : (
+                      <Plus className="w-[13px] ml-2 text-[#2322BC]" />
+                    )}
+                  </div>
+                </div>
+                <div className="bg-white absolute w-[187px] b5 p-2 min-h-[54px] top-0 border border-[#2322BC] left-0 translate-y-[5px] group-hover:bg-[#D3D3F2] translate-x-[5px]">
+                  {openCards.includes(index) && (
+                    <div className=" flex flex-col pt-[54px]">
+                      <ReactMarkdown>{m.des}</ReactMarkdown>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
-          <div className=" bg-[#FEF5CD] py-3 px-10 rounded-lg my-7">
+          <Image
+            src={arrow_down_white}
+            alt="Background"
+            className="w-[20px]  mx-auto mt-5"
+          />
+          <div className=" bg-[#FEF5CD] py-3 px-10 rounded-lg my-3">
+            <TriangleAlert className=" mx-auto my-3 text-[#2322BC] w-[33px] h-[28px]" />
             <p className="b4">
               แต่ด้วยหน้าที่ที่กว้างขวางและครอบคลุมในหลายกิจการ
               <br />
@@ -115,6 +164,11 @@ const NavigationPage = () => {
               <li>ปริมาณงานที่มีจำนวนมาก</li>
             </ul>
           </div>
+          <Image
+            src={arrow_down_white}
+            alt="Background"
+            className="w-[20px]  mx-auto my-5"
+          />
           <div className=" bg-white rounded-t-full w-full min-h-[70vh]">
             <p className=" h4 font-black mt-10">กมธ.</p>
             <p className="b4">
@@ -126,12 +180,24 @@ const NavigationPage = () => {
               <br />
               และศึกษาปัญหาและหาข้อเท็จจริงได้อย่างลึกซึ้งมากขึ้น
             </p>
+            <Image
+              src={arrow_down_blue}
+              alt="Background"
+              className="w-[20px]  mx-auto my-5"
+            />
             <p className=" b2 mt-5">
               กมธ. จึงเป็นเสมือน
               <br /> <b>‘สภาฯเล็ก’</b> ที่ใช้อำนาจนิติบัญญัติ แทน <b>‘เรา’ </b>
               <br />
               ในการทำหน้าที่เหล่านี้
             </p>
+            <div className="w-[267px] my-2 mx-auto">
+              <Image
+                src={modal_card_01}
+                alt="Background"
+                className=" max-full "
+              />
+            </div>
             <p className="b4 mt-5">
               <b>
                 {" "}
@@ -143,7 +209,10 @@ const NavigationPage = () => {
                หรือการตรวจสอบภาครัฐว่าสุจริตหรือไม่ 
             </p>
             <div className=" bg-[#FEF5CD] py-3 px-5 mb-10 border-[#FCD535] max-w-[458px] mx-auto mt-10 border rounded-lg">
-              <p className=" h7 font-bold">กมธ. มี 2 ประเภทหลัก</p>
+              <p className=" h7 font-bold">
+                <CircleAlert className=" mx-auto my-3 text-[#2322BC] w-[33px] h-[28px] inline pr-3" />
+                กมธ. มี 2 ประเภทหลัก
+              </p>
               <ol className="list-decimal pl-6 space-y-2 text-[#2322BC] text-start b4">
                 <li>
                   <span className="font-bold">กมธ. สามัญ</span>{" "}
