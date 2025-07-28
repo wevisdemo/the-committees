@@ -26,8 +26,8 @@ const Stucture = () => {
       </div>
 
       {/* กล่องแสดงจำนวน กมธ. */}
-      <div className="bg-white border-x-[15px] border-y-[10px] border-[#FF795B] rounded-xl max-w-3xl mx-auto p-6 mb-8 shadow-md">
-        <div className="flex justify-between items-start mb-2">
+      <div className="bg-white border-x-[15px] border-y-[10px]  border-[#FF795B] rounded-xl w-fit  mx-auto p-6 mb-8 shadow-md">
+        <div className="flex flex-col md:flex-row justify-between items-start mb-2">
           <div className="flex flex-col items-center flex-1 text-[#2322BC]">
             <div className=" text-center ">
               <p className=" font-bold b1">กมธ. สส.</p>
@@ -57,7 +57,7 @@ const Stucture = () => {
       </div>
 
       {/* ไอคอน 4 ช่อง */}
-      <div className="flex justify-center gap-4 mb-10 max-w-[962px] mx-auto">
+      <div className="flex flex-col md:flex-row justify-center gap-4 mb-10 max-w-[962px] mx-auto">
         <div className="flex flex-col items-center text-center flex-1 ">
           <Image
             src={trending_list_01}

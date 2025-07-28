@@ -41,6 +41,8 @@ const Header = () => {
         (navigationRect.top <= 0 && navigationRect.bottom > 0) ||
         (rect.top <= 0 && rect.bottom > 0)
       ) {
+        console.log(1);
+
         setManuColorWhite(false);
         setManuColorBlue(true);
       }
@@ -48,6 +50,7 @@ const Header = () => {
         (actionRect.top <= 0 && actionRect.bottom > 0) ||
         (actionRect1.top <= 0 && actionRect1.bottom > 0)
       ) {
+        console.log(2);
         setManuColorWhite(true);
         setManuColorBlue(false);
       }

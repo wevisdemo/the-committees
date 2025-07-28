@@ -10,7 +10,7 @@ function IntroOpenTrending() {
       <Image
         src={landing_trending_bg}
         alt="Background"
-        className="absolute top-0 left-[50%] translate-x-[-50%]  h-full "
+        className="absolute top-0 left-[50%] translate-x-[-50%]  h-full object-cover "
       />
       <Image
         src={batch_trending}

@@ -50,7 +50,7 @@ const NavigationPage = () => {
       <Image
         src={navigation}
         alt="Background"
-        className="absolute top-0 left-[50%] translate-x-[-50%]  h-full "
+        className="absolute top-0 left-[50%] translate-x-[-50%] h-full   "
       />
       <p className=" b2 z-10 font-bold">
         ชวนจับจ้อง ส่องติดตาม
@@ -64,26 +64,26 @@ const NavigationPage = () => {
         อัปเดตข้อมูลเมื่อ 10 มิถุนายน 2568
       </p>
       <div className=" mt-3 underline z-10 b4 mb-5 ">กดเลือกสำรวจเนื้อหา</div>
-      <div className=" flex space-x-3 z-10">
+      <div className=" flex space-x-3 z-10  overflow-hidden">
         <Link href="/OpenHouse">
           <Image
             src={navigation_01}
             alt="Background"
-            className=" max-w-[142px] "
+            className=" max-w-[95px] md:max-w-[142px] "
           />
         </Link>
         <Link href="/CheckQC">
           <Image
             src={navigation_02}
             alt="Background"
-            className=" max-w-[142px]"
+            className="  max-w-[95px] md:max-w-[142px]"
           />
         </Link>
         <Link href="/Trending">
           <Image
             src={navigation_03}
             alt="Background"
-            className=" max-w-[142px]"
+            className=" max-w-[95px] md:max-w-[142px]"
           />
         </Link>
       </div>

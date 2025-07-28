@@ -18,7 +18,7 @@ function IntroLandingPage() {
       if (!actionRef.current) return;
       const rect = actionRef.current.getBoundingClientRect();
       const visible =
-        rect.top + rect.height < window.innerHeight && rect.bottom > 0;
+        rect.top + rect.height / 2 < window.innerHeight && rect.bottom > 0;
       setIsVisible(visible);
     };
     window.addEventListener("scroll", onScroll);
@@ -28,7 +28,7 @@ function IntroLandingPage() {
 
   return (
     <>
-      <div className=" relative component h6 bg-[#FEF5CD] text-[#2322BC] font-black">
+      <div className=" relative component h6 bg-[#FEF5CD] text-[#2322BC] font-black overflow-hidden">
         <Image
           src={landing_01}
           alt="Background"
@@ -45,7 +45,7 @@ function IntroLandingPage() {
         </div>
       </div>
       <div
-        className="component relative flex flex-col "
+        className="component relative flex flex-col  overflow-hidden"
         id="action_page"
         ref={actionRef}
       >
@@ -59,7 +59,7 @@ function IntroLandingPage() {
         <Image
           src={landing_toppic}
           alt="Background"
-          className=" max-w-[482px]"
+          className=" w-[275px] md:w-[482px]"
         />
         <Image
           src={landing_02}
