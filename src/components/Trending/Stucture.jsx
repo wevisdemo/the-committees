@@ -27,7 +27,7 @@ const Stucture = () => {
 
       {/* กล่องแสดงจำนวน กมธ. */}
       <div className="bg-white border-x-[15px] border-y-[10px]  border-[#FF795B] rounded-xl w-fit  mx-auto p-6 mb-8 shadow-md">
-        <div className="flex flex-col md:flex-row justify-between items-start mb-2">
+        <div className="flex flex-col md:flex-row justify-between items-start mb-2 md:space-x-5 space-y-5 md:space-y-0">
           <div className="flex flex-col items-center flex-1 text-[#2322BC]">
             <div className=" text-center ">
               <p className=" font-bold b1">กมธ. สส.</p>
@@ -56,25 +56,24 @@ const Stucture = () => {
         </div>
       </div>
 
-      {/* ไอคอน 4 ช่อง */}
-      <div className="flex flex-col md:flex-row justify-center gap-4 mb-10 max-w-[962px] mx-auto">
-        <div className="flex flex-col items-center text-center flex-1 ">
+      <div className="justify-center flex px-5 md:px-0 flex-col  md:items-start md:flex-row gap-4 mb-10 ">
+        <div className="flex md:flex-col space-x-3 md:space-x-0 items-center md:text-center w-fit ">
           <Image
             src={trending_list_01}
             alt="Background"
-            className="w-[80px] "
+            className="w-[50px] md:w-[80px] "
           />
           <div className="text-[#2322BC] b3 font-bold my-3">
             กมธ. สามัญ จัดตั้งขึ้น
-            <br /> ไว้ถาวร
+            <br className=" hidden md:inline" /> ไว้ถาวร
             <br /> ตลอดอายุของสภา
           </div>
         </div>
-        <div className="flex flex-col items-center text-center flex-1">
+        <div className="flex md:flex-col space-x-3 md:space-x-0 items-center md:text-center w-fit ">
           <Image
             src={trending_list_02}
             alt="Background"
-            className="w-[80px] "
+            className="w-[50px] md:w-[80px] "
           />
           <div className="text-[#2322BC] b3 my-3">
             <b>
@@ -88,11 +87,11 @@ const Stucture = () => {
             ในแต่ละช่วงเวลา
           </div>
         </div>
-        <div className="flex flex-col items-center text-center flex-1">
+        <div className="flex md:flex-col space-x-3 md:space-x-0 items-center md:text-center w-fit ">
           <Image
             src={trending_list_03}
             alt="Background"
-            className="w-[80px] "
+            className="w-[50px] md:w-[80px] "
           />
           <div className="text-[#2322BC] b3 my-3">
             ‘กรรมาธิการ’ หรือ
@@ -103,11 +102,11 @@ const Stucture = () => {
             </b>
           </div>
         </div>
-        <div className="flex flex-col items-center text-center flex-1">
+        <div className="flex md:flex-col space-x-3 md:space-x-0 items-center md:text-center w-fit ">
           <Image
             src={trending_list_04}
             alt="Background"
-            className="w-[80px] "
+            className="w-[50px] md:w-[80px] "
           />
           <div className="text-[#2322BC] b4 my-3">
             <b>
@@ -128,10 +127,22 @@ const Stucture = () => {
         <br />
         ในปัจจุบันดูเหมือนว่าจะ
       </div>
-      <div className=" flex max-w-[485px] space-x-10 mx-auto my-10 ">
-        <Image src={list_01} alt="Background" className=" max-w-[141px] " />
-        <Image src={list_02} alt="Background" className="max-w-[141px] " />
-        <Image src={list_03} alt="Background" className="max-w-[141px]" />
+      <div className=" flex max-w-[485px] space-x-5  justify-center md:space-x-10 mx-auto my-10 ">
+        <Image
+          src={list_01}
+          alt="Background"
+          className=" max-w-[87px] md:max-w-[141px] "
+        />
+        <Image
+          src={list_02}
+          alt="Background"
+          className="max-w-[87px] md:max-w-[141px] "
+        />
+        <Image
+          src={list_03}
+          alt="Background"
+          className="max-w-[87px] md:max-w-[141px]"
+        />
       </div>
       <div className="b3 font-bold text-[#2322BC] text-center mt-4">
         <b>
@@ -143,7 +154,7 @@ const Stucture = () => {
       </div>
 
       {/* Disclaimer */}
-      <p className=" mt-5 b5 border border-dashed rounded border-[#2322BC] text-[#2322BC] w-fit mx-auto z-10 p-4">
+      <p className=" mt-5 b5 border border-dashed rounded border-[#2322BC] mx-5 text-[#2322BC] w-fit md:mx-auto z-10 p-4">
         <b>Disclaimer:</b> ข้อมูลโครงสร้างของ กมธ. ในงานชิ้นนี้
         อ้างอิงจากงานศึกษา
         <br />

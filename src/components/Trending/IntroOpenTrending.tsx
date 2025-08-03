@@ -15,7 +15,7 @@ function IntroOpenTrending() {
       <Image
         src={batch_trending}
         alt="Background"
-        className=" max-w-[267px] z-10  inline-block mr-2"
+        className=" max-w-[168px] md:max-w-[267px] z-10  inline-block mr-2"
       />
     </div>
   );

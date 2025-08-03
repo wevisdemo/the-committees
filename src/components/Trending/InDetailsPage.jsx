@@ -24,7 +24,7 @@ const InDetailsPage = () => {
   console.log(openDesc, "openDesc");
 
   return (
-    <div className="bg-[#FEF5CD] py-10 text-[#2322BC] relative ">
+    <div className="bg-[#FEF5CD] py-10 text-[#2322BC] relative px-5 ">
       {data.map((d, index) => (
         <div className=" py-10 flex flex-col items-center" key={index}>
           {/* กล่องเนื้อหา */}
