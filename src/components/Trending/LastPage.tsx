@@ -28,7 +28,7 @@ const LastPage = () => {
       <Image
         src={last_trending}
         alt="Background"
-        className=" md:w-full scale-150 md:scale-0 translate-y-[-20%]"
+        className=" md:w-full scale-150 md:scale-100 translate-y-[-20%]"
       />
 
       <p className="b2  mt-4  z-10">

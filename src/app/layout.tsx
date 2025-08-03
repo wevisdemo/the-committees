@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={` antialiased`}>
         <div className=" relative ">
           <Header />
-          {children}
+          <div className=" ">{children}</div>
         </div>
       </body>
     </html>

@@ -11,7 +11,7 @@ const LastPage = () => {
       <Image
         src={last_openhouse}
         alt="Background"
-        className="absolute top-0 left-[50%] translate-x-[-50%]  h-full "
+        className="absolute top-0 left-[50%] translate-x-[-50%]  h-full object-cover "
       />
       <p className="b2 z-10">
         จากข้อมูล

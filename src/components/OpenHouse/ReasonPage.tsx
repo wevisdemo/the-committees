@@ -10,8 +10,8 @@ import openhouse from "assets/images/openhouse.png";
 
 const ReasonPage = () => {
   return (
-    <div>
-      <div className="  bg-[#AAE4CD] flex-col overflow-hidden ">
+    <div className=" white_manu ">
+      <div className="  bg-[#AAE4CD] flex-col overflow-hidden pt-[67px] ">
         <div className=" max-w-[275px] mx-auto mt-6 flex flex-col  relative px-3 py-5 border border-[#2322BC] rounded-xl ">
           <div className=" text-white z-40">
             <Image

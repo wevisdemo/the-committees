@@ -6,7 +6,7 @@ import landing_trending_bg from "assets/images/landing_trending_bg.png";
 import batch_trending from "assets/images/batch_trending.png";
 function IntroOpenTrending() {
   return (
-    <div className="component relative ">
+    <div className="component relative mt-[-67px] ">
       <Image
         src={landing_trending_bg}
         alt="Background"

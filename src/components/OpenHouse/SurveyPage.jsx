@@ -32,8 +32,8 @@ const SurveyPage = () => {
   };
 
   return (
-    <div className="bg-[#2322BC] text-white py-3 ">
-      <div className=" py-8 text-center">
+    <div className="bg-[#2322BC] text-white py-3 white_manu">
+      <div className=" py-8 text-center white_manu">
         <div className="   h7 font-black">
           <p>สำรวจและตรวจสอบ </p>
           <p>
@@ -42,17 +42,22 @@ const SurveyPage = () => {
           </p>
         </div>
         <p className="b4">ตั้งแต่กรกฎาคม 2566 - พฤษภาคม 2568</p>
-        <div className="b5 mt-2 border border-white border-dashed w-fit mx-auto py-3 px-5 rounded">
-          <span className="font-bold">Disclaimer:</span>{" "}
-          ข้อมูลส่วนนี้เก็บศึกษาจากเอกสารบันทึกการประชุมของ กมธ. สามัญ
-          <br />
-          ในสมัยสภาผู้แทนราษฎรไทย ชุดที่ 26 และ วุฒิสภา ชุดที่ 13
-          <p className=" underline cursor-pointer mt-2">อ่านเพิ่มเติม</p>
+        <div className=" px-10">
+          <div className="b5 mt-2 border border-white border-dashed w-fit mx-auto py-3 px-5 rounded">
+            <span className="font-bold">Disclaimer:</span>{" "}
+            ข้อมูลส่วนนี้เก็บศึกษาจากเอกสาร
+            <br className=" md:hidden" />
+            บันทึกการประชุมของ กมธ. สามัญ
+            <br className=" hidden md:block" />
+            ในสมัย <br className=" md:hidden" />
+            สภาผู้แทนราษฎรไทย ชุดที่ 26 และ วุฒิสภา ชุดที่ 13
+            <p className=" underline cursor-pointer mt-2">อ่านเพิ่มเติม</p>
+          </div>
         </div>
         <p className=" b5 mt-6">เลือกวิธีดูข้อมูล กมธ.</p>
       </div>
-      <div className=" mx-auto container flex  flex-row  bg-primary space-x-1 justify-center h-max ">
-        <div className="flex flex-col max-w-[330px] flex-1 card-sticky  pt-6 h-fit ">
+      <div className=" mx-auto container flex flex-col  md:flex-row relative bg-primary md:space-x-1 justify-center h-max ">
+        <div className="flex flex-col md:max-w-[330px] flex-1  md:sticky md:top-0 pt-6 h-fit ">
           <div className="flex flex-col gap-4 bg-[#D3D3F2] p-6 border text-[#2322BC] border-[#2322BC]  rounded-lg text-center">
             <p className=" h7 font-bold">เลือกสำรวจราย กมธ.</p>
             <div className="flex items-center">
@@ -136,14 +141,14 @@ const SurveyPage = () => {
           </div>
         </div>
         {/* //// */}
-        <div className="flex-2 max-w-[690px] flex flex-col gap-4 bg-[#FEF5CD] border border-[#2322BC] rounded-lg mt-6 pb-6 text-[#2322BC] ">
-          <div className="card-sticky  h-fit py-6 bg-[#FEF5CD] border-b border-b-[#FBCB03] w-full justify-between rounded-t-lg flex px-6 ">
+        <div className="flex-2 relative max-w-[690px] flex flex-col gap-4 bg-[#FEF5CD] border border-[#2322BC] rounded-lg mt-6 pb-6 text-[#2322BC] ">
+          <div className="card-sticky  h-fit py-2 md:py-6 bg-[#FEF5CD] border-b border-b-[#FBCB03] w-full justify-between rounded-t-lg flex px-6 ">
             <p>ประชุมครั้งที่</p>
             <p>หัวข้อการประชุม</p>
             <p>หน้าเว็บ</p>
           </div>
           {visibleData.map((item, index) => (
-            <div key={index} className="px-6 ">
+            <div key={index} className=" px-2 md:px-6 ">
               <ExpandCard item={item} />
             </div>
           ))}
