@@ -133,3 +133,7 @@
   @apply text-[12px] leading-[150%];
   font-family: "IBMPlexSansThai";
 }
+.b6 {
+  @apply text-[10px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}

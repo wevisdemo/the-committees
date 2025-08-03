@@ -131,15 +131,15 @@ const CommiteeOpenData = () => {
   );
 
   return (
-    <div className=" py-10 flex flex-col  ">
+    <div className=" py-10 flex flex-col ">
       <Image
         src={head_question}
         alt="Background"
-        className="max-w-[627px] mx-auto"
+        className="md:max-w-[627px] mx-auto"
       />
       <div className=" relative max-w-[627px] mx-auto bg-white w-full   text-center">
         <div className=" h-[50px] bg-[#2322BC] rounded-b-[10px] absolute w-full translate-y-[15px] bottom-0 left-0"></div>
-        <div className=" relative z-10 bg-white rounded-b-[10px] px-10 pt-4 pb-16 ">
+        <div className=" relative z-10 bg-white rounded-b-[10px] px-3 md:px-10 pt-4 pb-16 ">
           <p className="b2 font-bold">
             นอกเหนือจากการเปิดข้อมูล
             <br /> กมธ. สามารถเพิ่มภาระรับผิดชอบ
@@ -189,7 +189,7 @@ const CommiteeOpenData = () => {
           <Image
             src={qc_toppic_01}
             alt="Background"
-            className="max-w-[420px] mt-10 mx-auto"
+            className="md:max-w-[420px] mt-10 mx-auto"
           />
           <p className=" b5 my-1">กดเลือกประเด็นที่สนใจ</p>
           <div className=" relative">
@@ -214,13 +214,13 @@ const CommiteeOpenData = () => {
                 )
               )}
             </div>
-            <div className=" relative z-10 bg-[#FEF5CD]  py-15 px-10">
-              <div className=" absolute inset-0 bg-[#FEF5CD]  top-0 left-0 translate-x-[-8px] z-30 py-15 px-10 text-start   border border-[#2322BC]">
+            <div className=" relative z-10 bg-[#FEF5CD]  py-15 px-1 md:px-10">
+              <div className=" absolute inset-0 bg-[#FEF5CD]  top-0 left-0 translate-x-[-6px]  md:translate-x-[-8px] z-30 py-15 px-2 md:px-10 text-start   border border-[#2322BC]">
                 {displayToppic1}
               </div>
-              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[16px] translate-y-[15px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
-              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[8px] translate-y-[10px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
-              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[0px] translate-y-[5px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
+              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[8px]  md:translate-x-[16px] translate-y-[15px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
+              <div className=" absolute inset-0 bg-[#FEF5CD]  translate-x-[4px]  md:translate-x-[8px] translate-y-[10px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
+              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[0px]  md:translate-x-[0px] translate-y-[5px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
               {displayToppic1}
             </div>
           </div>
@@ -228,19 +228,19 @@ const CommiteeOpenData = () => {
           <Image
             src={qc_toppic_02}
             alt="Background"
-            className="max-w-[420px] mt-10 mx-auto"
+            className="md:max-w-[420px] mt-10 mx-auto"
           />
           <p className=" b5 my-1">กดเลือกประเด็นที่สนใจ</p>
           <div className=" relative">
             <div
-              className="flex space-x-5  justify-center mt-10
+              className="flex space-x-2 md:space-x-5  justify-center mt-10
          "
             >
               {groupByTheme(data)["คุณภาพของข้อมูลเปิดที่ กมธ. ควรปฏิบัติ"].map(
                 (item, index) => (
                   <div
                     key={item.toppic}
-                    className={` b5 font-bold max-w-[90px] transition delay-150 duration-100 ease-in-out  cursor-pointer bg-[#2322BC] pb-5 text-white p-3 ${
+                    className={` b6 font-bold z-10 max-w-[85px] md:max-w-[90px] transition delay-150 duration-100 ease-in-out  cursor-pointer bg-[#2322BC] pb-5 text-white p-3 ${
                       toppic2 === index ? "" : " opacity-50 translate-y-5"
                     }`}
                     onClick={() => setToppic2(index)}
@@ -254,12 +254,12 @@ const CommiteeOpenData = () => {
               )}
             </div>
             <div className=" relative z-10 bg-[#FEF5CD]  py-15 px-10">
-              <div className=" absolute inset-0 bg-[#FEF5CD]  top-0 left-0 z-30 translate-x-[-8px] py-15 px-10 text-start   border border-[#2322BC]">
+              <div className=" absolute z-40 inset-0 bg-[#FEF5CD]  top-0 left-0 translate-x-[-6px]  md:translate-x-[-8px] py-15 px-2 md:px-10 text-start   border border-[#2322BC]">
                 {displayToppic2}
               </div>
-              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[16px] translate-y-[15px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
-              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[8px] translate-y-[10px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
-              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[0px] translate-y-[5px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
+              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[8px]  md:translate-x-[16px] translate-y-[15px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
+              <div className=" absolute inset-0 bg-[#FEF5CD]  translate-x-[4px]  md:translate-x-[8px] translate-y-[10px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
+              <div className=" absolute inset-0 bg-[#FEF5CD] translate-x-[0px]  md:translate-x-[0px] translate-y-[5px]  top-0 left-0 z-20  border border-[#2322BC]"></div>
               {displayToppic2}
             </div>
           </div>

@@ -11,7 +11,7 @@ const LastPage = () => {
       <Image
         src={last_qc}
         alt="Background"
-        className="absolute top-0 left-[50%] translate-x-[-50%]  h-full "
+        className="absolute top-0 left-[50%] translate-x-[-50%]  h-full object-cover "
       />
       <p className="b2 z-10">
         กมธ. จึงไม่ใช่เรื่องไกลตัว

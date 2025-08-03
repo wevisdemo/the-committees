@@ -13,7 +13,7 @@ import paper_frame from "assets/images/paper_frame.png";
 
 const BenefitPage = () => {
   return (
-    <div className="  flex items-center  justify-center text-center pb-10 flex-col">
+    <div className="  flex items-center px-5  justify-center text-center pb-10 flex-col">
       <Image
         src={benefit_landing}
         alt="Background"

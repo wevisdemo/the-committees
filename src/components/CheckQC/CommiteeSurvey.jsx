@@ -13,18 +13,18 @@ const CommiteeSurvey = () => {
   const [selected, setSelected] = useState("เว็บไซต์และข้อมูลทั่วไป");
 
   return (
-    <div className="flex items-center  justify-center text-center  flex-col ">
+    <div className="flex items-center  justify-center text-center  flex-col px-1 ">
       <Image
         src={lamp}
         alt="Background"
-        className="max-w-[388px] mx-auto py-6"
+        className=" max-w-[350px] md:max-w-[388px] mx-auto py-6"
       />
       <div className=" bg-white  max-w-[540px] mt-5 w-full  rounded-[10px] p-3 border border-[#2322BC]  relative">
         <div className=" bg-[#2322BC] rounded-[10px] p-4">
           <label className="block text-white b4 mb-2 font-bold">
             กดเลือกสำรวจอีก 12 ประเภทข้อมูล
           </label>
-          <div className="w-full relative max-w-lg text-left mx-auto mt-5">
+          <div className="w-full relative max-w-lg text-left mx-auto  mt-5">
             <div
               className="relative bg-[#AAE4CD] rounded-md cursor-pointer px-4 py-2 b4 font-bold text-blue-[#2322BC]"
               onClick={() => setOpen(!open)}
@@ -71,7 +71,7 @@ const CommiteeSurvey = () => {
       <Image
         src={keyboard}
         alt="Background"
-        className="max-w-[443px] mx-auto py-6"
+        className="md:max-w-[443px] mx-auto py-6"
       />
     </div>
   );

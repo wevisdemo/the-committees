@@ -33,7 +33,7 @@ export default function CommitteeFilter({ onChange }) {
   };
 
   return (
-    <div className="grid max-w-[360px] text-[#2322BC] mx-auto grid-cols-2 gap-2 justify-center ">
+    <div className="grid max-w-[360px] text-[#2322BC] mx-auto grid-cols-2 gap-2 justify-center px-1 ">
       <button
         onClick={() => handleChange("showRep")}
         className={`px-4 py-1 rounded-lg border cursor-pointer  border-[#2322BC] flex-row flex justify-center items-center  ${

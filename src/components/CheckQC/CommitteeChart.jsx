@@ -16,7 +16,7 @@ export default function CommitteeChart({ data }) {
   return (
     <div className="space-y-6 text-center  bg-white max-w-[690px] mx-auto w-full mt-6 rounded-lg">
       {!selectedItem ? (
-        <div className=" py-5 px-5">
+        <div className=" py-5 px-1 md:px-5">
           <p className="h7 font-bold ">กมธ. เปิดข้อมูลอะไรอยู่บ้าง ?</p>
           <div className="text-[#2322BC] text-center space-y-2">
             <div className="flex items-center justify-center gap-3 b3">

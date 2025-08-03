@@ -19,7 +19,7 @@ export default function CommitteeList({ data }) {
       <div
         className={`flex justify-between items-center b5 pb-2  ${
           data?.title === "สส." ? "bg-[#55C99C]" : "bg-[#E89B55]"
-        } px-7 py-3`}
+        } px-3 md:px-7 py-3`}
       >
         <p>รายชื่อ กมธ. ประเภท สส.</p>
         <p>
@@ -30,7 +30,7 @@ export default function CommitteeList({ data }) {
       {visibleItems?.map((item, idx) => (
         <div
           key={idx}
-          className={`flex justify-between items-end p-2 px-7 border-b  ${
+          className={`flex justify-between items-end p-2 px-3 md:px-7 border-b  ${
             data?.title === "สส." ? "bg-[#D5F1E6]" : "bg-[#F9E6D5]"
           }`}
         >
@@ -66,7 +66,7 @@ export default function CommitteeList({ data }) {
       {(data?.lists?.length ?? 0) - (visibleItems?.length ?? 0) > 0 ? (
         <button
           onClick={handleToggle}
-          className="mt-4 w-full text-center text-[#2322BC] underline b5 cursor-pointer"
+          className="mt-4 w-full text-center text-[#2322BC] underline b5 opacity-50 cursor-pointer"
         >
           {showAll
             ? "ซ่อนรายการ"

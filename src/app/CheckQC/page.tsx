@@ -9,7 +9,7 @@ import BenefitPage from "@/components/CheckQC/BenefitPage";
 const CheckQC = () => {
   return (
     <div
-      className="bg-[#F3CDAA] text-[#2322BC]"
+      className="bg-[#F3CDAA] text-[#2322BC] overflow-x-hidden"
       id="check-qc"
       style={{ minHeight: "100vh" }}
     >

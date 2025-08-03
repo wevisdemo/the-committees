@@ -27,21 +27,21 @@ const IntroLandingPage = () => {
         <Image
           src={landing_qc_bg}
           alt="Background"
-          className="absolute top-0 left-[50%] translate-x-[-50%]  h-full "
+          className="absolute top-0 left-[50%] translate-x-[-50%]  h-full object-cover "
         />
         <Image
           src={batch_qc}
           alt="Background"
-          className=" max-w-[267px] z-10  inline-block mr-2"
+          className=" max-w-[168px] md:max-w-[267px] z-10  inline-block mr-2"
         />
       </div>
       <div className="component  flex flex-col text-start ">
         <p className="h7 font-black"> สำรวจ ‘ข้อมูลเปิด ของ กมธ.’ </p>
 
-        <div className=" relative max-w-[349px] h-[439px] mt-5 w-full   ">
-          <div className=" w-[349px] h-[439px] bg-white absolute top-0 left-0 translate-y-[10px] translate-x-[10px] border border-[#2322BC]"></div>
-          <div className=" w-[349px] h-[439px] bg-white absolute top-0 left-0 translate-y-[5px] translate-x-[5px]  border border-[#2322BC]"></div>
-          <div className=" w-[349px] h-[439px] bg-white absolute top-0 left-0 border border-[#2322BC] p-5">
+        <div className=" relative  max-w-[349px] h-[439px] mt-5 w-full   ">
+          <div className="  w-[349px] h-[439px] bg-white absolute top-0 left-0 translate-y-[10px] translate-x-[10px] border border-[#2322BC]"></div>
+          <div className="  w-[349px] h-[439px] bg-white absolute top-0 left-0 translate-y-[5px] translate-x-[5px]  border border-[#2322BC]"></div>
+          <div className="  w-[349px] h-[439px] bg-white absolute text-start top-0 left-0 border border-[#2322BC] p-5">
             <Image
               src={survey_qc}
               alt="Background"
@@ -73,37 +73,65 @@ const IntroLandingPage = () => {
         <Image
           src={bg_question}
           alt="Background"
-          className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]  w-full"
+          className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] h-full object-cover  md:w-full "
         />
         <p className="b3">มีระเบียบว่าต้องเปิดเผยข้อมูล</p>
         <p className="b3 font-bold ">
-          แต่ในความเป็นจริงระเบียบนี้ถูกใช้เป็นสภาพบังคับ
+          แต่ในความเป็นจริง
+          <br className=" md:hidden" />
+          ระเบียบนี้ถูกใช้เป็นสภาพบังคับ
           <br />
-          มากน้อยแค่ไหน และการเปิดเผยข้อมูลมีคุณภาพ
+          มากน้อยแค่ไหน
+          <br className=" md:hidden" />
+           และการเปิดเผยข้อมูลมีคุณภาพ
           <br /> มากเพียงพอหรือยัง ?
         </p>
       </div>
-      <div className=" flex items-center  justify-center text-center  flex-col">
-        <Image src={like_label} alt="Background" className=" w-full" />
+      <div className=" py-5 flex items-center   justify-center text-center  flex-col">
+        <Image
+          src={like_label}
+          alt="Background"
+          className=" h-[55px] md:h-full object-cover w-full"
+        />
         <div className="my-5">
           <p className=" b1 font-bold ">
             มีเพียงแค่ 8 กมธ. ที่เปิดเผย
             <br /> ข้อมูลครบ 8 ประเภทข้อมูล
           </p>
-          <div className="grid grid-cols-4 gap-4 pb-3 pt-6">
-            <Image src={like_01} alt="Background" className=" w-[100px]" />
-            <Image src={like_02} alt="Background" className=" w-[100px]" />
-            <Image src={like_03} alt="Background" className=" w-[100px]" />
-            <Image src={like_04} alt="Background" className=" w-[100px]" />
-            <Image src={like_05} alt="Background" className=" w-[100px]" />
-            <Image src={like_06} alt="Background" className=" w-[100px]" />
-            <Image src={like_07} alt="Background" className=" w-[100px]" />
-            <Image src={like_08} alt="Background" className=" w-[100px]" />
+          <div className="grid grid-cols-3 md:grid-cols-4 gap-4 pb-3 pt-6">
+            <Image src={like_01} alt="Background" className="w-[100px]" />
+            <Image src={like_02} alt="Background" className="w-[100px]" />
+            <Image src={like_03} alt="Background" className="w-[100px]" />
+            <Image src={like_04} alt="Background" className="w-[100px]" />
+            <Image src={like_05} alt="Background" className="w-[100px]" />
+            <Image src={like_06} alt="Background" className="w-[100px]" />
+            <Image
+              src={like_07}
+              alt="Background"
+              className="w-[100px] hidden md:block"
+            />
+            <Image
+              src={like_08}
+              alt="Background"
+              className="w-[100px] hidden md:block"
+            />
+          </div>
+          <div className="flex justify-center md:hidden  gap-4 pb-3 pt-6">
+            <Image src={like_07} alt="Background" className="w-[100px]" />
+            <Image src={like_08} alt="Background" className="w-[100px]" />
           </div>
         </div>
-        <Image src={like_label} alt="Background" className=" w-full" />
+        <Image
+          src={like_label}
+          alt="Background"
+          className=" h-[55px] md:h-full object-cover w-full"
+        />
         <div className=" mt-10">
-          <Image src={bind_label} alt="Background" className=" w-full" />
+          <Image
+            src={bind_label}
+            alt="Background"
+            className=" h-[55px] md:h-full object-cover w-full"
+          />
           <div className=" my-5">
             <p className=" b1 font-bold ">
               ข้อมูลไหนที่ กมธ.
@@ -148,7 +176,11 @@ const IntroLandingPage = () => {
               </div>
             </div>
           </div>
-          <Image src={bind_label} alt="Background" className=" w-full" />
+          <Image
+            src={bind_label}
+            alt="Background"
+            className=" h-[55px] md:h-full object-cover w-full"
+          />
         </div>
       </div>
     </div>
