@@ -1,24 +1,53 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import navigation from "assets/images/navigation.png";
+import landing_02 from "assets/images/landing_02.png";
+import landing_03 from "assets/images/landing_03.png";
 import navigation_01 from "assets/images/navigation_01.png";
 import navigation_02 from "assets/images/navigation_02.png";
 import navigation_03 from "assets/images/navigation_03.png";
 import { Plus } from "lucide-react";
 
 const NavigationPage = ({ setOpen }) => {
+  const navigationRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    const onScroll = () => {
+      if (!navigationRef.current) return;
+      const rect = navigationRef.current.getBoundingClientRect();
+      const visible =
+        rect.top + rect.height / 2 < window.innerHeight && rect.bottom > 0;
+      setIsVisible(visible);
+    };
+    window.addEventListener("scroll", onScroll);
+    onScroll();
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      setOpen(false);
+    };
+  }, []);
+
   return (
     <div
+      ref={navigationRef}
       id="navigation"
-      className="component flex-col text-[#2322BC]  relative translate-y-[67px] bg-[#2322BC]"
+      className="component flex-col text-[#2322BC]  relative translate-y-[67px] bg-[#2322BC] overflow-y-hidden"
     >
       <Image
-        src={navigation}
+        src={landing_03}
         alt="Background"
-        className="absolute top-0 left-[50%] translate-x-[-50%] h-full   "
+        className={`absolute top-0 right-0 scale-[102%] w-[50%] h-full transition-transform duration-700 ${
+          !isVisible ? "translate-x-[100%]" : "translate-x-[0%]"
+        }`}
+      />
+      <Image
+        src={landing_02}
+        alt="Background"
+        className={`absolute top-0 left-0 scale-[102%] z-10 w-[50%] h-full transition-transform duration-700 ${
+          !isVisible ? "-translate-x-[100%]" : "translate-x-[0%]"
+        }`}
       />
       <p className=" b2 z-10 font-bold">
         ชวนจับจ้อง ส่องติดตาม

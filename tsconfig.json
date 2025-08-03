@@ -40,7 +40,8 @@
     "src/components/OpenHouse/SurveyPage.jsx",
     "src/components/OpenHouse/SuggestionListOfKeyWord.jsx",
     "next.config.js",
-    "src/components/Trending/InDetailsPage.jsx"
+    "src/components/Trending/InDetailsPage.jsx",
+    "src/components/NavigationPage.jsx"
   ],
   "exclude": ["node_modules"]
 }
