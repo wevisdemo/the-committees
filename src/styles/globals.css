@@ -1,0 +1,139 @@
+@import "tailwindcss";
+* {
+  font-family: "KondolarThai";
+}
+
+.h1 {
+  font-size: 60px;
+  line-height: 125%;
+  @apply underline;
+}
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 100px;
+  }
+}
+
+.h2 {
+  font-size: 48px;
+  line-height: 125%;
+}
+@media (min-width: 768px) {
+  .h2 {
+    font-size: 72px;
+  }
+}
+
+.h3 {
+  font-size: 36px;
+  line-height: 125%;
+}
+@media (min-width: 768px) {
+  .h3 {
+    font-size: 60px;
+  }
+}
+
+.h4 {
+  font-size: 32px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h4 {
+    font-size: 48px;
+  }
+}
+
+.h5 {
+  font-size: 28px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h5 {
+    font-size: 36px;
+  }
+}
+
+.h6 {
+  font-size: 24px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h6 {
+    font-size: 32px;
+  }
+}
+
+.h7 {
+  font-size: 21px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h7 {
+    font-size: 28px;
+  }
+}
+
+.h8 {
+  font-size: 18px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h8 {
+    font-size: 32px;
+  }
+}
+
+.h9 {
+  font-size: 16px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h9 {
+    font-size: 28px;
+  }
+}
+
+.h10 {
+  font-size: 15px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h10 {
+    font-size: 24px;
+  }
+}
+
+.h11 {
+  font-size: 14px;
+  line-height: 140%;
+}
+@media (min-width: 768px) {
+  .h11 {
+    font-size: 21px;
+  }
+}
+.b1 {
+  @apply text-[21px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b2 {
+  @apply text-[18px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b3 {
+  @apply text-[16px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b4 {
+  @apply text-[14px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b5 {
+  @apply text-[12px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
+.b6 {
+  @apply text-[10px] leading-[150%];
+  font-family: "IBMPlexSansThai";
+}
