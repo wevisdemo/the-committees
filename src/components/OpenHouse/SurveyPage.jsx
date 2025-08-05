@@ -11,7 +11,7 @@ import { ArrowDown, ArrowDownToLine } from "lucide-react";
 import summarizeKeywords from "@/app/utils/summarizeKeywords";
 import clear from "assets/images/clear.png";
 
-const SurveyPage = () => {
+const SurveyPage = ({ onOpen }) => {
   const [commissions, setCommissions] = useState("");
   const [keywords, setKeywords] = useState("");
   const [visibleCount, setVisibleCount] = useState(10);
@@ -51,7 +51,9 @@ const SurveyPage = () => {
             <br className=" hidden md:block" />
             ในสมัย <br className=" md:hidden" />
             สภาผู้แทนราษฎรไทย ชุดที่ 26 และ วุฒิสภา ชุดที่ 13
-            <p className=" underline cursor-pointer mt-2">อ่านเพิ่มเติม</p>
+            <p className=" underline cursor-pointer mt-2" onClick={onOpen}>
+              อ่านเพิ่มเติม
+            </p>
           </div>
         </div>
         <p className=" b5 mt-6">เลือกวิธีดูข้อมูล กมธ.</p>

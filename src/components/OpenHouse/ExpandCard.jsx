@@ -25,7 +25,9 @@ export default function ExpandCard({ item }) {
       <div className="flex items-center mb-2 justify-between">
         <div className="b1 font-bold">{item.no}</div>
         <div className="text-sm text-[#4F4EC9]">{item.date}</div>
-        <ExternalLink className="w-[17px] cursor-pointer" />
+        <a target="_blank" rel="noopener noreferrer" href={item.site}>
+          <ExternalLink className="w-[17px] cursor-pointer" />
+        </a>
       </div>
       <div className="flex items-center justify-between">
         <div className="b4">{item.committee}</div>

@@ -152,9 +152,9 @@ function IntroLandingPage() {
       </div>
       <NavigationPage setOpen={() => setOpen(true)} />
       <ModalDetail open={open} onClose={() => setOpen(false)}>
-        <div className="w-full md:w-[90%] md:mt-10 relative text-center text-[#2322BC] mx-auto bg-[#2322BC] md:rounded-lg  flex flex-col items-center">
+        <div className="w-full md:w-[90%] md:mt-10 relative text-center text-[#2322BC]  bg-[#2322BC] md:rounded-lg  flex flex-col items-center">
           <div
-            className="  sticky top-0 left-[100%] p-5 "
+            className=" cursor-pointer sticky top-0 left-[100%] p-5 "
             onClick={() => setOpen(false)}
           >
             <Image src={modal_close} alt="Background" className="w-[30px]" />

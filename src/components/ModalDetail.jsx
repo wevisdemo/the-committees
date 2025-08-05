@@ -19,10 +19,10 @@ export default function ModalDetail({ open, onClose, children }) {
   if (!open) return null;
 
   return (
-    <div className=" sticky translate-y-[67px] inset-0 z-50 flex items-center justify-center">
+    <div className=" sticky mt-[-67px] inset-0 z-50 flex items-center justify-center">
       {/* BG */}
       <div
-        className="absolute inset-0 bg-black/40 z-10"
+        className="absolute inset-0 min-h-screen bg-black/40 z-10"
         onClick={onClose}
         aria-label="close modal"
       />

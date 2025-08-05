@@ -18,6 +18,10 @@ const CommiteeDetails = ({ selectedItem, clearSelection }) => {
     showOpen: true,
     showClose: true,
   });
+  const value = "สส.";
+
+  // https://docs.google.com/spreadsheets/d/15Xd-xM-Mi3qVRRyyqMxHrRgXYT3WNmWIzpvdUn9xWZo/gviz/tq?tqx=out:csv&gid=1915709666&&tq=where%20D%20%3D%20'${chartSelected}'%20or%20E%20%3D%20'${chartSelected}
+  const baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where%20B%20%3D%20'${value}'`;
 
   const filterData = useCallback((data, showOpen, showClose) => {
     if (showOpen && showClose) {
@@ -79,14 +83,18 @@ const CommiteeDetails = ({ selectedItem, clearSelection }) => {
         </p>
       </div>
       <CommitteeFilter onChange={handleFilterChange} />
-      <div className="b5 underline my-5 cursor-pointer">
+      <a
+        className="b5 underline my-5 cursor-pointer"
+        href={`${baseUrl}`}
+        target="_blank"
+      >
         <Image
           src={down_load_blue}
           alt="Background"
           className="w-[10px] font-bold text-[#2322BC] inline-block mr-2"
         />
-        ดาวน์โหลดข้อมูลทั้งหมด
-      </div>
+        ดาวน์โหลดเฉพาะข้อมูลที่เลือก
+      </a>
       {filter?.showRep && <CommitteeList data={representatives} />}
       {filter?.showSen && <CommitteeList data={senators} />}
     </div>

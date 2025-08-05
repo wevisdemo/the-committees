@@ -100,14 +100,18 @@ export default function CommitteeChart({ data }) {
               </div>
             );
           })}
-          <div className="b5 underline mt-5 cursor-pointer">
+          <a
+            className="b5 underline mt-5 cursor-pointer"
+            href="https://docs.google.com/spreadsheets/d/1N5JxhJVQi-ChWfFpIR1tBN97InLRKYKG5B3Yasu24GU/edit?pli=1&gid=1870155855#gid=1870155855"
+            target="_blank"
+          >
             <Image
               src={down_load_blue}
               alt="Background"
               className="w-[10px] font-bold text-[#2322BC] inline-block mr-2"
             />
             ดาวน์โหลดข้อมูลทั้งหมด
-          </div>
+          </a>
         </div>
       ) : (
         <>
