@@ -18,10 +18,22 @@ const CommiteeDetails = ({ selectedItem, clearSelection }) => {
     showOpen: true,
     showClose: true,
   });
-  const value = "สส.";
+  const isRep = filter.showRep ? "สส." : null;
+  const isSen = filter.showSen ? "สว." : null;
 
-  // https://docs.google.com/spreadsheets/d/15Xd-xM-Mi3qVRRyyqMxHrRgXYT3WNmWIzpvdUn9xWZo/gviz/tq?tqx=out:csv&gid=1915709666&&tq=where%20D%20%3D%20'${chartSelected}'%20or%20E%20%3D%20'${chartSelected}
-  const baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where%20B%20%3D%20'${value}'`;
+  const getFilterStatus = (showOpen, showClose) => {
+    if (showOpen && !showClose) return true; // Only show open
+    if (!showOpen && showClose) return false; // Only show closed
+    if (showOpen && showClose) return ""; // Show all (default to open)
+  };
+  let baseUrl;
+  if (getFilterStatus(filter.showOpen, filter.showClose)) {
+    baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')%20and%20${selectedItem.column}%20%3D%20TRUE`;
+  } else if (!getFilterStatus(filter.showOpen, filter.showClose)) {
+    baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')%20and%20${selectedItem.column}%20%3D%20FALSE`;
+  } else {
+    baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')`;
+  }
 
   const filterData = useCallback((data, showOpen, showClose) => {
     if (showOpen && showClose) {
@@ -83,18 +95,20 @@ const CommiteeDetails = ({ selectedItem, clearSelection }) => {
         </p>
       </div>
       <CommitteeFilter onChange={handleFilterChange} />
-      <a
-        className="b5 underline my-5 cursor-pointer"
-        href={`${baseUrl}`}
-        target="_blank"
-      >
-        <Image
-          src={down_load_blue}
-          alt="Background"
-          className="w-[10px] font-bold text-[#2322BC] inline-block mr-2"
-        />
-        ดาวน์โหลดเฉพาะข้อมูลที่เลือก
-      </a>
+      {(filter.showOpen || filter.showClose) && (
+        <a
+          className="b5 underline my-5 cursor-pointer"
+          href={`${baseUrl}`}
+          target="_blank"
+        >
+          <Image
+            src={down_load_blue}
+            alt="Background"
+            className="w-[10px] font-bold text-[#2322BC] inline-block mr-2"
+          />
+          ดาวน์โหลดเฉพาะข้อมูลที่เลือก
+        </a>
+      )}
       {filter?.showRep && <CommitteeList data={representatives} />}
       {filter?.showSen && <CommitteeList data={senators} />}
     </div>

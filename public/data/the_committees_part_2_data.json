@@ -2,6 +2,7 @@
     {
         "topic": "หน้าเว็บไซต์ กมธ.",
         "total": 56,
+        "column": "G",
         "representatives": {
             "title": "สส.",
             "open": 35,
@@ -300,6 +301,7 @@
     {
         "topic": "อำนาจหน้าที่ของ กมธ.",
         "total": 56,
+        "column": "H",
         "representatives": {
             "title": "สส.",
             "open": 30,
@@ -598,6 +600,7 @@
     {
         "topic": "ข้อมูลกรรมาธิการ (สมาชิก)",
         "total": 56,
+        "column": "I",
         "representatives": {
             "title": "สส.",
             "open": 35,
@@ -896,6 +899,7 @@
     {
         "topic": "เอกสารการประชุม เช่น กำหนดการประชุม สรุปการประชุม และ บันทึกการประชุม",
         "total": 56,
+        "column": "J",
         "representatives": {
             "title": "สส.",
             "open": 35,
@@ -1194,6 +1198,7 @@
     {
         "topic": "รายงาน กมธ.",
         "total": 56,
+        "column": "K",
         "representatives": {
             "title": "สส.",
             "open": 19,
@@ -1492,6 +1497,7 @@
     {
         "topic": "ข้อมูลศึกษาดูงาน/สัมมนา",
         "total": 56,
+        "column": "L",
         "representatives": {
             "title": "สส.",
             "open": 15,
@@ -1790,6 +1796,7 @@
     {
         "topic": "ข่าวสารกิจกรรม (ภาพ)",
         "total": 56,
+        "column": "M",
         "representatives": {
             "title": "สส.",
             "open": 34,
@@ -2088,6 +2095,7 @@
     {
         "topic": "ข้อมูลคณะอนุ กมธ.",
         "total": 56,
+        "column": "N",
         "representatives": {
             "title": "สส.",
             "open": 35,
