@@ -7,12 +7,21 @@ import Header from "./Header";
 export const metadata: Metadata = {
   title: "the committees",
   description: "กทม.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "50x23",
+        type: "image/x-icon",
+      },
+    ],
+  },
   openGraph: {
     title: "the committees",
     description: "กทม.",
     images: [
       {
-        url: "/og_default.jpg", // Path relative to the public directory
+        url: "https://wevisdemo.github.io/the-committees/og_default.jpg", // Path relative to the public directory
         width: 1200,
         height: 630,
         alt: "the committees OG Image",
@@ -25,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "the committees",
     description: "กทม.",
-    images: ["/og_default.jpg"], // Path relative to the public directory
+    images: ["https://wevisdemo.github.io/the-committees/og_default.jpg"], // Path relative to the public directory
   },
 };
 
