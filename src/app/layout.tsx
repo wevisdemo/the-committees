@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       {
         url: "/the-committees/favicon.ico",
         type: "image/x-icon",
+        sizes: "50x23",
       },
     ],
   },
