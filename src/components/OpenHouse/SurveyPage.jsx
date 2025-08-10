@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import part_1 from "public/data/the_committees_part_1_data.json";
+import authority from "public/data/authority.json";
 import SuggestionListOfCommissions from "./SuggestionListOfCommissions";
 import SuggestionListOfKeyWord from "./SuggestionListOfKeyWord";
 import filterByCommitteeAndKeyword from "@/app/utils/filterByCommitteeAndKeyword";
@@ -13,6 +14,7 @@ import clear from "assets/images/clear.png";
 
 const SurveyPage = ({ onOpen }) => {
   const [commissions, setCommissions] = useState("");
+  const [options, setOptions] = useState("");
   const [keywords, setKeywords] = useState("");
   const [visibleCount, setVisibleCount] = useState(10);
   const filteredData = filterByCommitteeAndKeyword(
@@ -30,6 +32,12 @@ const SurveyPage = ({ onOpen }) => {
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 10);
   };
+
+  function filterCommittee() {
+    return authority.filter((item) => {
+      return item.committee === commissions && item.house === options;
+    });
+  }
 
   return (
     <div className="bg-[#2322BC] text-white py-3 white_manu">
@@ -66,6 +74,7 @@ const SurveyPage = ({ onOpen }) => {
               <SuggestionListOfCommissions
                 commissions={commissions}
                 setCommissions={setCommissions}
+                setOptions={setOptions}
                 commissionsData={filteredData}
               />
               {commissions && (
@@ -140,6 +149,23 @@ const SurveyPage = ({ onOpen }) => {
                 </div>
               )}
             </div>
+            {filterCommittee()[0] && (
+              <div className="flex mt-3 items-center justify-between border m-3 border-[#FBCB03]  flex-col bg-[#FEF5CD] text-[#2322BC] rounded-lg  px-3 py-4">
+                <p className=" b3 font-bold text-center pb-2">อำนาจหน้าที่</p>
+                <div className=" text-start flex-col flex space-y-2 ">
+                  {filterCommittee()[0]?.function_bullet.map(
+                    (bullet, index) => (
+                      <div
+                        className="bg-[#FDEA9A] border-l-[5px] px-2 py-2 border-l-[#FBCB03]"
+                        key={index}
+                      >
+                        {bullet}
+                      </div>
+                    )
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </div>
         {/* //// */}

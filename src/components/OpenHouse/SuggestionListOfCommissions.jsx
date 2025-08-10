@@ -7,6 +7,7 @@ export default function SuggestionListOfCommissions({
   commissions,
   setCommissions,
   commissionsData,
+  setOptions,
 }) {
   const [open, setOpen] = useState(false);
   const wrapperRef = useRef(null);
@@ -77,6 +78,7 @@ export default function SuggestionListOfCommissions({
                 className="grid grid-cols-[1fr_auto] px-4 py-2 hover:bg-purple-50 cursor-pointer border-b text-sm"
                 onClick={() => {
                   setCommissions(c.committee);
+                  setOptions(c.house);
                   setOpen(false);
                 }}
               >
