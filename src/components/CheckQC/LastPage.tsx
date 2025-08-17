@@ -4,6 +4,7 @@ import Link from "next/dist/client/link";
 import React from "react";
 import Image from "next/image";
 import last_qc from "assets/images/last_qc.png";
+import ShareComponent from "../ShareComponent";
 
 const LastPage = () => {
   return (
@@ -21,6 +22,7 @@ const LastPage = () => {
         แล้ว กมธ. แบบไหน
         <br /> ที่คุณอยากเห็น ?
       </p>
+      <ShareComponent />
       <Link
         href="/#navigation"
         className="bg-[#FEF5CD] z-10  border border-[#2322BC] px-4 py-2 rounded-full hover:bg-[#E6E6E6] transition-colors"

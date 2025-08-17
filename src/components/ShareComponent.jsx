@@ -18,7 +18,7 @@ const ShareComponent = () => {
     "แชร์ให้คนอื่น ๆ มาเรียนรู้และตรวจสอบผลักดันเรื่อง กมธ. มากขึ้น";
 
   return (
-    <div className="bg-[#2322BC] p-6 mt-9 mb-6 rounded-xl">
+    <div className="bg-[#2322BC] z-10 p-6 mt-9 mb-6 rounded-xl">
       <p className="text-white b5 text-center mb-4">{title}</p>
       <div className="flex items-center justify-center gap-2">
         <div className="flex items-center gap-2">

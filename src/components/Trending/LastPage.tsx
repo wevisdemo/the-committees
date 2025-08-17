@@ -4,10 +4,11 @@ import Link from "next/dist/client/link";
 import React from "react";
 import Image from "next/image";
 import last_trending from "assets/images/last_trending.png";
+import ShareComponent from "../ShareComponent";
 
 const LastPage = () => {
   return (
-    <div className="component bg-[#FEF5CD] text-[#2322BC] relative flex flex-col items-center justify-center space-y-4">
+    <div className=" py-10 text-center bg-[#FEF5CD] text-[#2322BC] relative flex flex-col items-center justify-center space-y-4">
       <p className="b2 z-10">
         <b>
           {" "}
@@ -31,7 +32,7 @@ const LastPage = () => {
         className=" md:w-full scale-150 md:scale-100 translate-y-[-20%]"
       />
 
-      <p className="b2  mt-4  z-10">
+      <p className="b2  mt-2  z-10">
         ในระยะยาว หากทำให้ กมธ.
         <br className=" md:hidden" /> มีระบบที่ ‘เวิร์ก’ ขึ้นได้ ก็จะช่วยให้
         <br />
@@ -46,6 +47,7 @@ const LastPage = () => {
           ได้ดียิ่งขึ้น
         </b>
       </p>
+      <ShareComponent />
       <Link
         href="/#navigation"
         className="bg-[#FEF5CD] z-10  border border-[#2322BC] px-4 py-2 rounded-full hover:bg-[#E6E6E6] transition-colors"

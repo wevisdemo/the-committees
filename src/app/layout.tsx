@@ -4,9 +4,11 @@ import "../styles/globals.css";
 import "../styles/fonts.css";
 import Header from "./Header";
 
+const description =
+  "คณะกรรมาธิการประจำรัฐสภา หรือ ‘กมธ.’ เปรียบเสมือนห้องประชุมสภาขนาดเล็กที่ทำหน้าที่พิจารณาศึกษาปัญหาและหาข้อเท็จตามที่สภากำหนด จึงเป็นเรื่องสำคัญที่จะต้อง ‘เข้าใจ’ ว่า กมธ. คืออะไร มีบทบาทอย่างไร รวมถึง ‘ติดตาม’ กระบวนการทำงานของ กมธ. ว่าเป็นอย่างไร ชวนหาตอบคำถามสำคัญว่าในช่วง 2 ปีที่ผ่านมา กมธ. ทำงานเพื่อผลักดันประเด็นอะไรบ้าง กมธ. มีการเปิดเผยข้อมูลอะไรและในลักษณะไหน และนักวิชาการมีความเห็นต่อโครงสร้างและอำนาจของ กมธ. ในปัจจุบันอย่างไร";
 export const metadata: Metadata = {
   title: "the committees",
-  description: "กทม.",
+  description: description,
   icons: {
     icon: [
       {
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "the committees",
-    description: "กทม.",
+    description: description,
     images: [
       {
         url: "https://wevisdemo.github.io/the-committees/og_default.jpg", // Path relative to the public directory
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "the committees",
-    description: "กทม.",
+    description: description,
     images: ["https://wevisdemo.github.io/the-committees/og_default.jpg"], // Path relative to the public directory
   },
 };
