@@ -102,7 +102,7 @@ export default function CommitteeChart({ data }) {
           })}
           <a
             className="b5 underline mt-5 cursor-pointer"
-            href="https://docs.google.com/spreadsheets/d/1N5JxhJVQi-ChWfFpIR1tBN97InLRKYKG5B3Yasu24GU/edit?pli=1&gid=1870155855#gid=1870155855"
+            href="https://docs.google.com/spreadsheets/d/1N5JxhJVQi-ChWfFpIR1tBN97InLRKYKG5B3Yasu24GU/edit?pli=1&gid=701099492#gid=701099492"
             target="_blank"
           >
             <Image

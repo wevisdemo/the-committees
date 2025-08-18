@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
 
-export default function ExpandCard({ item, isShowToppic }) {
+export default function ExpandCard({ item, isShowToppic, keywords }) {
   const [openSub, setOpenSub] = useState({});
   const [openInSub, setOpenInSub] = useState({});
 
@@ -47,7 +47,9 @@ export default function ExpandCard({ item, isShowToppic }) {
         {item.keywords?.map((k, idx) => (
           <span
             key={idx}
-            className="bg-[#D3D3F2] py-1  border-l-[2px] px-2 ml-2 border-l-[#2322BC] "
+            className={` py-1  border-l-[2px] px-2 ml-2 border-l-[#2322BC] ${
+              keywords == k ? "bg-[#2322BC] text-white" : "bg-[#D3D3F2]"
+            } `}
           >
             #{k}
           </span>
