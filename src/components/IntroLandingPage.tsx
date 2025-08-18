@@ -88,30 +88,30 @@ function IntroLandingPage() {
         </div>
       </div>
       <div
-        className="component relative flex flex-col  overflow-hidden white_manu"
+        className=" h-screen items-center relative flex flex-col  overflow-hidden white_manu"
         id="action_page"
         ref={actionRef}
       >
         <Image
           src={landing_03}
           alt="Background"
-          className={`absolute top-0 right-0 w-[50%] h-full transition-transform duration-700 ${
-            isVisible ? "translate-x-[100%]" : "translate-x-0"
+          className={`absolute top-[-2%] scale-105 right-0 w-[50%] h-full transition-transform duration-700 ${
+            isVisible ? "translate-x-[100%]" : "translate-x-[-0%]"
           }`}
         />
         <Image
           src={landing_toppic}
           alt="Background"
-          className=" w-[275px] md:w-[482px]"
+          className=" mt-20 w-[275px] z-30 md:w-[482px]"
         />
         <Image
           src={landing_02}
           alt="Background"
-          className={`absolute top-0 left-0 z-10 w-[50%] h-full transition-transform duration-700 ${
-            isVisible ? "-translate-x-[100%]" : "translate-x-0"
+          className={`absolute top-[-2%] scale-105 left-0 z-10 w-[50%] h-full transition-transform duration-700 ${
+            isVisible ? "-translate-x-[100%]" : "-translate-x-[2%]"
           }`}
         />
-        <div>
+        <div className=" relative z-30 text-[#2322BC]">
           <p className="h7 mt-3 font-bold">
             จับจ้อง ส่องติดตาม
             <br /> ‘คณะกรรมาธิการ’ รัฐสภา

@@ -65,7 +65,7 @@ const CardSlide = () => {
           <div className="flex items-center justify-between">
             <div className=" text-start b5">
               <p>พิเชษฐ์ เชื้อเมืองพาน</p>
-              <p>รองประธานสภาผู้แทนราษฎรคนที่ 1 </p>
+              <p>อดีตรองประธานสภาผู้แทนราษฎรคนที่ 1 </p>
               <p>(5 ก.ย. 66)</p>
             </div>
             <Image src={people_02} alt="Background" className=" max-w-[64px]" />
@@ -123,7 +123,7 @@ const CardSlide = () => {
           <div className="flex items-center justify-between">
             <div className=" text-start b5">
               <p>พิเชษฐ์ เชื้อเมืองพาน</p>
-              <p>รองประธานสภาผู้แทนราษฎรคนที่ 1 </p>
+              <p>อดีตรองประธานสภาผู้แทนราษฎรคนที่ 1 </p>
               <p>(5 ก.ย. 66)</p>
             </div>
             <Image src={people_02} alt="Background" className=" max-w-[64px]" />

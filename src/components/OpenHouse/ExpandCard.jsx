@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
 
-export default function ExpandCard({ item }) {
+export default function ExpandCard({ item, isShowToppic }) {
   const [openSub, setOpenSub] = useState({});
   const [openInSub, setOpenInSub] = useState({});
 
@@ -30,14 +30,16 @@ export default function ExpandCard({ item }) {
         </a>
       </div>
       <div className="flex items-center justify-between">
-        <div className="b4">{item.committee}</div>
-        <div
-          className={` ${
-            item.house === "สส." ? "bg-[#55C99C]" : "bg-[#E2822B]"
-          } border-l-[2px] px-2 ml-2 border-l-[#2322BC]`}
-        >
-          {item.house}
-        </div>
+        {!isShowToppic && <div className="b4">{item.committee}</div>}
+        {!isShowToppic && (
+          <div
+            className={` ${
+              item.house === "สส." ? "bg-[#55C99C]" : "bg-[#E2822B]"
+            } border-l-[2px] px-2 ml-2 border-l-[#2322BC]`}
+          >
+            {item.house}
+          </div>
+        )}
       </div>
 
       <div className="mt-2 items-center text-xs text-[#2322BC] flex flex-wrap gap-1 ">

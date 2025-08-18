@@ -109,7 +109,7 @@ const Stucture = () => {
             className="w-[50px] md:w-[80px] "
           />
           <div className="text-[#2322BC] b4 my-3">
-            <b>
+            <b className="b3">
               โดยจำนวนกรรมาธิการของแต่ละ
               <br /> สภาจะแตกต่างกัน ดังนี้
             </b>

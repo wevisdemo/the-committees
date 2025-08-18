@@ -177,7 +177,7 @@ const SurveyPage = ({ onOpen }) => {
           </div>
           {visibleData.map((item, index) => (
             <div key={index} className=" px-2 md:px-6 ">
-              <ExpandCard item={item} />
+              <ExpandCard item={item} isShowToppic={filterCommittee()[0]} />
             </div>
           ))}
           {visibleCount < filteredData.length && (
