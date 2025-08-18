@@ -77,8 +77,8 @@ const CommiteeDetails = ({ selectedItem, clearSelection }) => {
   }, [selectedItem]);
 
   return (
-    <div className=" relative">
-      <div className=" py-5 px-5">
+    <div className=" relative py-5 ">
+      <div className="  px-5">
         <div className="absolute top-0 left-0 p-2 md:p-4">
           <button
             className="text-[#2322BC] cursor-pointer"

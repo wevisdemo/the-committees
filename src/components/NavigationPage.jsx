@@ -3,8 +3,8 @@
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import landing_02 from "assets/images/landing_02.png";
-import landing_03 from "assets/images/landing_03.png";
+import ending01 from "assets/images/ending01.png";
+import ending02 from "assets/images/ending02.png";
 import navigation_01 from "assets/images/navigation_01.png";
 import navigation_02 from "assets/images/navigation_02.png";
 import navigation_03 from "assets/images/navigation_03.png";
@@ -33,27 +33,31 @@ const NavigationPage = ({ setOpen }) => {
     <div
       ref={navigationRef}
       id="navigation"
-      className="component flex-col text-[#2322BC]  relative translate-y-[67px] bg-[#2322BC] overflow-y-hidden"
+      className=" flex min-h-screen items-center text-center pt-20 md:pt-32 flex-col text-[#2322BC]  relative translate-y-[67px] bg-[#2322BC] overflow-y-hidden"
     >
       <Image
-        src={landing_03}
+        src={ending02}
         alt="Background"
-        className={`absolute top-0 right-0 scale-[102%] w-[50%] h-full transition-transform duration-700 ${
-          !isVisible ? "translate-x-[100%]" : "translate-x-[0%]"
+        className={`absolute top-[0px] right-0 scale-[110%] md:scale-[105%] w-[50%] h-full transition-transform duration-700 ${
+          !isVisible ? "translate-x-[110%]" : "translate-x-[0%]"
         }`}
       />
       <Image
-        src={landing_02}
+        src={ending01}
         alt="Background"
-        className={`absolute top-0 left-0 scale-[102%] z-10 w-[50%] h-full transition-transform duration-700 ${
-          !isVisible ? "-translate-x-[100%]" : "translate-x-[0%]"
+        className={`absolute top-[-20px] left-0 scale-[110%] md:scale-[105%] rotate-2 z-10 w-[50%] h-full transition-transform duration-700 ${
+          !isVisible ? "-translate-x-[110%]" : "translate-x-[0%]"
         }`}
       />
       <p className=" b2 z-10 font-bold">
         ชวนจับจ้อง ส่องติดตาม
         <br /> เกิดอะไรขึ้นบ้างภายในห้อง กมธ.
       </p>
-      <p className=" mt-3 b5 border border-dashed rounded border-[#2322BC] z-10 p-4">
+      <p
+        className={` mt-3 b5  border border-dashed rounded border-[#2322BC] z-10 p-4 ${
+          isVisible ? "bg-[#FEF5CD] transition-all duration-300" : ""
+        }`}
+      >
         <b>Disclaimer:</b> ข้อมูลในงานชิ้นนี้ศึกษาเฉพาะ กมธ. สามัญ
         <br />
         ในสมัยสภาผู้แทนราษฎรไทย ชุดที่ 26 และวุฒิสภา ชุดที่ 13

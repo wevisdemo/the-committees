@@ -47,7 +47,7 @@ export default function CommitteeFilter({ onChange }) {
             className="w-[16px] text-[#2322BC] mr-2 "
           />
         ) : (
-          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
+          <Image src={off} alt="off" className="w-[16px] text-[#2322BC] mr-2" />
         )}
 
         <p>สส.</p>
@@ -65,7 +65,11 @@ export default function CommitteeFilter({ onChange }) {
             className="w-[16px] text-[#2322BC] mr-2 "
           />
         ) : (
-          <Image src={on} alt="off" className="w-[16px] text-[#2322BC] mr-2 " />
+          <Image
+            src={off}
+            alt="off"
+            className="w-[16px] text-[#2322BC] mr-2 "
+          />
         )}
 
         <p>สว.</p>
