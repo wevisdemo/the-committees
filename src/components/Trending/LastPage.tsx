@@ -8,7 +8,7 @@ import ShareComponent from "../ShareComponent";
 
 const LastPage = () => {
   return (
-    <div className=" py-10 text-center bg-[#FEF5CD] text-[#2322BC] relative flex flex-col items-center justify-center space-y-4">
+    <div className=" py-10 text-center bg-[#FEF5CD] text-[#2322BC] relative flex flex-col items-center justify-center space-y-4 overflow-x-hidden">
       <p className="b2 z-10">
         <b>
           {" "}

@@ -6,13 +6,12 @@ import title_openhouse from "assets/images/title_openhouse.png";
 import pass from "assets/images/pass.png";
 import bg_openhouse from "assets/images/bg_openhouse.png";
 import bg_overlay from "assets/images/bg_overlay.png";
-import openhouse from "assets/images/openhouse.png";
 
 const ReasonPage = () => {
   return (
     <div className=" white_manu ">
       <div className="  bg-[#AAE4CD] flex-col overflow-hidden pt-[67px] ">
-        <div className=" max-w-[275px] mx-auto mt-6 flex flex-col  relative px-3 py-5 border border-[#2322BC] rounded-xl ">
+        <div className=" max-w-[229px] md:max-w-[482px] mx-auto mt-6 flex flex-col  relative px-3 py-5 border border-[#2322BC] rounded-xl ">
           <div className=" text-white z-40">
             <Image
               src={title_openhouse}
@@ -24,7 +23,7 @@ const ReasonPage = () => {
           <Image
             src={openhouse_02}
             alt="Background"
-            className=" max-w-[229px]  mt-3 inline-block  mix-blend-darken  z-0"
+            className=" max-w-[200px] md:max-w-[450px]  mt-3 inline-block  mix-blend-darken  mx-auto  z-0"
           />
         </div>
         <Image
@@ -33,12 +32,9 @@ const ReasonPage = () => {
           className=" max-w-[72px]  z-10 mx-auto"
         />
         <div className=" w-full relative">
-          <div>
-            <Image
-              src={openhouse}
-              alt="Background"
-              className=" w-[103px]  md:w-[200px] mt-5  z-50 mx-auto absolute top-[30%] left-[50%] translate-x-[-50%]"
-            />
+          <div className="  text-center text-white  mt-5 md:mt-13  z-50 mx-auto absolute top-[30%] left-[50%] translate-x-[-50%]">
+            <p className=" b1 font-bold">ประสิทธิภาพ</p>
+            <p className=" h5 font-black">ของรัฐสภา </p>
           </div>
           <Image
             src={bg_openhouse}

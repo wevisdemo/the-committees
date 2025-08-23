@@ -11,6 +11,9 @@ import trending_list_04 from "assets/images/trending_list_04.png";
 import list_01 from "assets/images/list_01.png";
 import list_02 from "assets/images/list_02.png";
 import list_03 from "assets/images/list_03.png";
+import list_01_mb from "assets/images/list_01_mb.png";
+import list_02_mb from "assets/images/list_02_mb.png";
+import list_03_mb from "assets/images/list_03_mb.png";
 
 const Stucture = () => {
   return (
@@ -131,37 +134,61 @@ const Stucture = () => {
         <Image
           src={list_01}
           alt="Background"
-          className=" max-w-[87px] md:max-w-[141px] "
+          className=" hidden md:block md:max-w-[141px] "
         />
         <Image
           src={list_02}
           alt="Background"
-          className="max-w-[87px] md:max-w-[141px] "
+          className=" hidden md:block md:max-w-[141px] "
         />
         <Image
           src={list_03}
           alt="Background"
-          className="max-w-[87px] md:max-w-[141px]"
+          className=" hidden md:block md:max-w-[141px] "
+        />
+        <Image
+          src={list_01_mb}
+          alt="Background"
+          className="  md:hidden max-w-[91px] "
+        />
+        <Image
+          src={list_02_mb}
+          alt="Background"
+          className="  md:hidden max-w-[91px] "
+        />
+        <Image
+          src={list_03_mb}
+          alt="Background"
+          className="  md:hidden max-w-[91px] "
         />
       </div>
-      <div className="b3 font-bold text-[#2322BC] text-center mt-4">
-        <b>
-          ชวนอ่าน 3 ข้อสังเกต เรื่องปัญหาโครงสร้างของ กมธ.
-          <br /> ตามรัฐธรรมนูญ 2560{" "}
-        </b>
-        และความเป็นไปได้ในการ
-        <br /> จัดวางโครงสร้าง กมธ. ในรูปแบบอื่น ๆ
+      <div className="b3 text-[#2322BC] text-center mt-4">
+        <p className=" font-bold">
+          ชวนอ่าน 3 ข้อสังเกต
+          <br className=" md:hidden" /> เรื่องปัญหาโครงสร้างของ กมธ.
+          <br /> ตามรัฐธรรมนูญ 2560 <br className=" md:hidden" />
+        </p>
+        <p>
+          และความเป็นไปได้ในการ
+          <br /> จัดวางโครงสร้าง กมธ. ในรูปแบบอื่น ๆ
+        </p>
       </div>
 
       {/* Disclaimer */}
-      <p className=" mt-5 b5 border border-dashed rounded border-[#2322BC] mx-5 text-[#2322BC] w-fit md:mx-auto z-10 p-4">
+      <p className=" mt-5 b5 border border-dashed text-center mx-auto rounded border-[#2322BC] text-[#2322BC] w-fit md:mx-auto z-10 p-4">
         <b>Disclaimer:</b> ข้อมูลโครงสร้างของ กมธ. ในงานชิ้นนี้
+        <br className=" md:hidden" />
         อ้างอิงจากงานศึกษา
+        <br className=" hidden md:block" />
+        เรื่องปัญหาการทําหน้าที่ของ
+        <br className=" md:hidden" />
+        คณะกรรมาธิการในการแสวงห้าข้อเท็จจริงฯ:
         <br />
-        เรื่องปัญหาการทําหน้าที่ของคณะกรรมาธิการในการแสวงห้าข้อเท็จจริงฯ:
-        <br />
-        ศึกษาเปรียบเทียบการทําหน้าที่ของคณะกรรมาธิการในประเทศสหรัฐอเมริกา
-        <br /> โดย ผศ.ดร.พรสันต์ เลี้ยงบุญเลิศชัย
+        ศึกษาเปรียบเทียบการทําหน้าที่ของ
+        <br className=" md:hidden" />
+        คณะกรรมาธิการในประเทศสหรัฐอเมริกา
+        <br className=" hidden md:block" /> โดย
+        <br className=" md:hidden" /> ผศ.ดร.พรสันต์ เลี้ยงบุญเลิศชัย
       </p>
     </div>
   );
