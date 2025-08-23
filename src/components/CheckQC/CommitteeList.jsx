@@ -21,7 +21,11 @@ export default function CommitteeList({ data }) {
           data?.title === "สส." ? "bg-[#55C99C]" : "bg-[#E89B55]"
         } px-3 md:px-7 py-3`}
       >
-        <p>รายชื่อ กมธ. ประเภท สส.</p>
+        <p>
+          {data?.title === "สส."
+            ? "รายชื่อ กมธ. ประเภท สส."
+            : "รายชื่อ กมธ. ประเภท สว."}
+        </p>
         <p>
           เปิด {data?.open ?? 0} / ไม่เปิด {data?.close ?? 0}
         </p>

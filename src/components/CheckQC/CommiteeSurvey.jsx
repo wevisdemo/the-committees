@@ -54,12 +54,13 @@ const CommiteeSurvey = () => {
                 </ul>
               )}
             </div>
-            <div
-              className=" bg-[#AAE4CD] mt-3 rounded-[10px] p-4 b5"
-              dangerouslySetInnerHTML={{
-                __html: the_committees_part_2_dropdown[selected],
-              }}
-            />
+            <div className=" bg-[#AAE4CD] mt-3 rounded-[10px] p-4 b5">
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: the_committees_part_2_dropdown[selected],
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>

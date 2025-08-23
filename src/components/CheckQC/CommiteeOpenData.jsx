@@ -35,11 +35,14 @@ const CommiteeOpenData = () => {
           สหราชอาณาจักร
         </div>
         <div className="b5">
-          {
-            groupByTheme(data)["คุณภาพของข้อมูลเปิดที่ กมธ. ควรปฏิบัติ"][
-              toppic2
-            ].สหราชอาณาจักร
-          }
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                groupByTheme(data)["คุณภาพของข้อมูลเปิดที่ กมธ. ควรปฏิบัติ"][
+                  toppic2
+                ].สหราชอาณาจักร,
+            }}
+          ></div>
         </div>
       </div>
       <div className="flex space-x-3 mb-5 border-t border-b border-[#F9E6D5] py-5">
@@ -54,11 +57,14 @@ const CommiteeOpenData = () => {
           เตรเลีย
         </div>
         <div className="b5">
-          {
-            groupByTheme(data)["คุณภาพของข้อมูลเปิดที่ กมธ. ควรปฏิบัติ"][
-              toppic2
-            ].ออสเตรเลีย
-          }
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                groupByTheme(data)["คุณภาพของข้อมูลเปิดที่ กมธ. ควรปฏิบัติ"][
+                  toppic2
+                ].ออสเตรเลีย,
+            }}
+          ></div>
         </div>
       </div>
       <div className="flex space-x-3 ">
@@ -71,11 +77,14 @@ const CommiteeOpenData = () => {
           ไทย
         </div>
         <div className="b5">
-          {
-            groupByTheme(data)["คุณภาพของข้อมูลเปิดที่ กมธ. ควรปฏิบัติ"][
-              toppic2
-            ].ไทย
-          }
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                groupByTheme(data)["คุณภาพของข้อมูลเปิดที่ กมธ. ควรปฏิบัติ"][
+                  toppic2
+                ].ไทย,
+            }}
+          ></div>
         </div>
       </div>
     </div>
@@ -89,10 +98,13 @@ const CommiteeOpenData = () => {
           สหราชอาณาจักร
         </div>
         <div className="b5">
-          {
-            groupByTheme(data)["กมธ. กับการมีส่วนร่วมของประชาชน"][toppic1]
-              .สหราชอาณาจักร
-          }
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                groupByTheme(data)["กมธ. กับการมีส่วนร่วมของประชาชน"][toppic1]
+                  .สหราชอาณาจักร,
+            }}
+          ></div>
         </div>
       </div>
       <div className="flex space-x-3 mb-5 border-t border-b border-[#F9E6D5] py-5">
@@ -107,10 +119,13 @@ const CommiteeOpenData = () => {
           เตรเลีย
         </div>
         <div className="b5">
-          {
-            groupByTheme(data)["กมธ. กับการมีส่วนร่วมของประชาชน"][toppic1]
-              .ออสเตรเลีย
-          }
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                groupByTheme(data)["กมธ. กับการมีส่วนร่วมของประชาชน"][toppic1]
+                  .ออสเตรเลีย,
+            }}
+          ></div>
         </div>
       </div>
       <div className="flex space-x-3 ">
@@ -124,7 +139,13 @@ const CommiteeOpenData = () => {
           ไทย
         </div>
         <div className="b5">
-          {groupByTheme(data)["กมธ. กับการมีส่วนร่วมของประชาชน"][toppic1].ไทย}
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                groupByTheme(data)["กมธ. กับการมีส่วนร่วมของประชาชน"][toppic1]
+                  .ไทย,
+            }}
+          ></div>
         </div>
       </div>
     </div>
@@ -161,7 +182,7 @@ const CommiteeOpenData = () => {
                 alt="Background"
                 className="max-w-[90px] mx-auto"
               />
-              <p className="b4 font-bold">
+              <p className="b4 font-bold mt-1">
                 รัฐสภาสหราช
                 <br /> อาณาจักร
               </p>
@@ -172,7 +193,11 @@ const CommiteeOpenData = () => {
                 alt="Background"
                 className="max-w-[90px] mx-auto"
               />
-              <p className="b4 font-bold">ออสเตรเลีย</p>
+              <p className="b4 mt-1 font-bold">
+                รัฐสภา
+                <br />
+                ออสเตรเลีย
+              </p>
             </div>
           </div>
           <p className=" b4 mt-3">
@@ -206,10 +231,10 @@ const CommiteeOpenData = () => {
                     }`}
                     onClick={() => setToppic1(index)}
                   >
-                    <h3
+                    <div
                       className="font-bold"
                       dangerouslySetInnerHTML={{ __html: item.toppic }}
-                    ></h3>
+                    ></div>
                   </div>
                 )
               )}
@@ -240,15 +265,15 @@ const CommiteeOpenData = () => {
                 (item, index) => (
                   <div
                     key={item.toppic}
-                    className={` b6 font-bold z-10 max-w-[85px] md:max-w-[90px] transition delay-150 duration-100 ease-in-out  cursor-pointer bg-[#2322BC] pb-5 text-white p-3 ${
+                    className={` b5 font-bold z-10 max-w-[85px] md:max-w-[90px] transition delay-150 duration-100 ease-in-out  cursor-pointer bg-[#2322BC] pb-5 text-white p-3 ${
                       toppic2 === index ? "" : " opacity-50 translate-y-5"
                     }`}
                     onClick={() => setToppic2(index)}
                   >
-                    <h3
+                    <div
                       className="font-bold"
                       dangerouslySetInnerHTML={{ __html: item.toppic }}
-                    ></h3>
+                    ></div>
                   </div>
                 )
               )}
