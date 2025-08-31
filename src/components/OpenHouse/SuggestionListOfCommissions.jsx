@@ -83,16 +83,29 @@ export default function SuggestionListOfCommissions({
                 }}
               >
                 <div className=" text-start">{c.committee}</div>
-                <div className="flex flex-col items-center gap-1">
+                <div className="flex flex-col items-end gap-1">
                   <span className=" b4 text-[#2322BC]">{c.sum}</span>
 
-                  <div
-                    className={` ${
-                      c.house === "สส." ? "bg-[#55C99C]" : "bg-[#E2822B]"
-                    } border-l-[2px] px-2 ml-2 border-l-[#2322BC]`}
-                  >
-                    {c.house}
-                  </div>
+                  {c.house === "สส." && (
+                    <div className=" bg-[#55C99C] border-l-[2px] px-2 border-l-[#2322BC]">
+                      {"สส."}
+                    </div>
+                  )}
+                  {c.house === "สว." && (
+                    <div className=" bg-[#E2822B] border-l-[2px] px-2 border-l-[#2322BC]">
+                      {"สว."}
+                    </div>
+                  )}
+                  {c.house === "สว.,สส." && (
+                    <div className="flex space-x-1">
+                      <div className=" bg-[#55C99C] border-l-[2px] px-2 border-l-[#2322BC]">
+                        {"สส."}
+                      </div>
+                      <div className=" bg-[#E2822B] border-l-[2px] px-2 border-l-[#2322BC]">
+                        {"สว."}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}

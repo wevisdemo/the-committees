@@ -10,18 +10,25 @@ function groupCommittee(data) {
       map[committeeName] = {
         committee: committeeName,
         house: committeeHouse,
+        houses: new Set([committeeHouse]), // Track unique houses
         sum: 1,
       };
     } else {
+      map[committeeName].houses.add(committeeHouse);
+      // Update house field if both types exist
+      if (map[committeeName].houses.size > 1) {
+        map[committeeName].house = "สว.,สส.";
+      }
       map[committeeName].sum += 1;
     }
   });
 
   for (const key in map) {
-    result.push(map[key]);
+    const item = { ...map[key] };
+    delete item.houses; // Remove the tracking Set before returning
+    result.push(item);
   }
 
-  // ✅ Sort จากมาก → น้อย ตาม sum
   result.sort((a, b) => b.sum - a.sum);
 
   return result;

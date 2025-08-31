@@ -22,6 +22,7 @@ const SurveyPage = ({ onOpen }) => {
     commissions,
     keywords
   );
+
   const summarize = summarizeKeywords(filteredData);
   const filtered = summarize.filter((c) =>
     c.keyword.toLowerCase().includes(keywords.toLowerCase())
@@ -39,6 +40,39 @@ const SurveyPage = ({ onOpen }) => {
     });
   }
 
+  const formatDetails = (details) => {
+    if (!details) return "";
+    const title = details.committee;
+    const items = details.details;
+
+    if (!items || items.length === 0) return title;
+
+    const formattedList = items
+      ?.map((item, index) => `${index + 1}.${item.title}`)
+      .join(",");
+
+    return `${title} ${formattedList}`;
+  };
+
+  const convertToCSV = (data) => {
+    if (data.length === 0) return "";
+
+    // Define headers based on your data structure
+    const headers = ["committee", "house", "date", "details", "url"].join(",");
+
+    // Convert data to CSV rows
+    const rows = data.map((item) => {
+      return [
+        `"${item.committee}"`,
+        `"${item.house}"`,
+        `"${item.date}"`,
+        `"${formatDetails(item)}"`,
+        `"${item.site}"`,
+      ].join(",");
+    });
+
+    return [headers, ...rows].join("\n");
+  };
   return (
     <div className="bg-[#2322BC] text-white py-3 white_manu">
       <div className=" py-8 text-center white_manu">
@@ -121,10 +155,18 @@ const SurveyPage = ({ onOpen }) => {
                 />
               )}
             </div>
-            <div className="b5 cursor-pointer mt-2 underline flex justify-center items-center space-x-1">
+            <a
+              className="b5 cursor-pointer mt-2 underline flex justify-center items-center space-x-1"
+              href={`data:text/csv;charset=utf-8,${encodeURIComponent(
+                convertToCSV(filteredData)
+              )}`}
+              download={`committee_data${commissions ? `_${commissions}` : ""}${
+                keywords ? `_${keywords}` : ""
+              }.csv`}
+            >
               <ArrowDownToLine className="w-[10px] text-[#2322BC]" />
               <p>ดาวน์โหลดเฉพาะข้อมูลที่ค้นหา </p>
-            </div>
+            </a>
           </div>
           {/* //// */}
           <div className=" bg-white text-[#2322BC] rounded-lg mt-1 py-4 text-center">

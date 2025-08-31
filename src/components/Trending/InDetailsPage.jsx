@@ -21,8 +21,6 @@ const InDetailsPage = () => {
     }));
   };
 
-  console.log(openDesc, "openDesc");
-
   return (
     <div className="bg-[#FEF5CD] py-10 text-[#2322BC] relative px-5 ">
       {data.map((d, index) => (
