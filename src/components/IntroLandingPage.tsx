@@ -26,9 +26,12 @@ function IntroLandingPage() {
   const [openCards, setOpenCards] = useState<number[]>([]);
 
   const handleToggleCard = (index: number) => {
-    setOpenCards((prev) =>
-      prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
-    );
+    setOpenCards((prev) => {
+      if (prev.includes(index)) {
+        return [];
+      }
+      return [index];
+    });
   };
   const modal = [
     {
@@ -167,10 +170,11 @@ function IntroLandingPage() {
             <Image src={modal_01} alt="Background" className=" max-full " />
           </div>
           <p className=" text-white b5 my-3 opacity-50">กดเพื่อเลือกดูข้อมูล</p>
-          <div className=" flex md:flex-row flex-col mt-5 space-y-3 md:space-y-0 md:space-x-3">
+          <div className="flex md:flex-row flex-col mt-5 space-y-3 md:space-y-0 md:space-x-3">
             {modal.map((m, index) => (
               <div
                 className="relative w-[187px] h-[54px] bg-white group cursor-pointer"
+                style={{ zIndex: openCards.includes(index) ? 20 - index : 10 }} // Add dynamic z-index
                 onClick={() => handleToggleCard(index)}
                 key={index}
               >
@@ -196,11 +200,11 @@ function IntroLandingPage() {
                     )}
                   </div>
                 </div>
-                <div className="bg-white absolute w-[187px] b5 p-2 min-h-[54px] top-0 border border-[#2322BC] left-0 translate-y-[5px] group-hover:bg-[#D3D3F2] translate-x-[5px]">
+                <div
+                  className={`bg-white absolute w-[187px] b5 p-2 min-h-[54px] top-0 border border-[#2322BC] left-0 translate-y-[5px] group-hover:bg-[#D3D3F2] translate-x-[5px]`}
+                >
                   {openCards.includes(index) && (
-                    <div
-                      className={` flex flex-col pt-[54px] z-[${10 + index}]`}
-                    >
+                    <div className="flex flex-col pt-[54px]">
                       <ReactMarkdown>{m.des}</ReactMarkdown>
                     </div>
                   )}
