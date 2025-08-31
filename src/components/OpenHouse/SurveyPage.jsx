@@ -48,10 +48,14 @@ const SurveyPage = ({ onOpen }) => {
     if (!items || items.length === 0) return title;
 
     const formattedList = items
-      ?.map((item, index) => `${index + 1}.${item.title}`)
-      .join(",");
+      ?.map((item, index) => {
+        const cleanText = item.title.replace(/<br\s*\/?>/gi, " ");
+        // console.log(item.details, "item.details");
+        return `${index + 1}. ${cleanText}`;
+      })
+      .join(" ");
 
-    return `${title} ${formattedList}`;
+    return `${formattedList}`;
   };
 
   const convertToCSV = (data) => {
@@ -221,6 +225,7 @@ const SurveyPage = ({ onOpen }) => {
             <div key={index} className=" px-2 md:px-6 ">
               <ExpandCard
                 item={item}
+                index={index}
                 isShowToppic={filterCommittee()[0]}
                 keywords={keywords}
               />

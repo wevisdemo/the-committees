@@ -56,8 +56,7 @@ function IntroLandingPage() {
     const onScroll = () => {
       if (!actionRef.current) return;
       const rect = actionRef.current.getBoundingClientRect();
-      const visible =
-        rect.top + rect.height / 2 < window.innerHeight && rect.bottom > 0;
+      const visible = rect.top + rect.height / 2 < window.innerHeight;
       setIsVisible(visible);
     };
     window.addEventListener("scroll", onScroll);
@@ -90,58 +89,62 @@ function IntroLandingPage() {
           คณะกรรมาธิการ ?
         </div>
       </div>
-      <div
-        className=" h-screen items-center relative flex flex-col  overflow-hidden white_manu"
-        id="action_page"
-        ref={actionRef}
-      >
-        <Image
-          src={landing_03}
-          alt="Background"
-          className={`absolute top-[-2%] scale-105 right-0 w-[50%] h-full transition-transform duration-700 ${
-            isVisible ? "translate-x-[100%]" : "translate-x-[-0%]"
-          }`}
-        />
-        <Image
-          src={landing_toppic}
-          alt="Background"
-          className=" mt-20 w-[275px] z-30 md:w-[482px]"
-        />
-        <Image
-          src={landing_02}
-          alt="Background"
-          className={`absolute top-[-2%] scale-105 left-0 z-10 w-[50%] h-full transition-transform duration-700 ${
-            isVisible ? "-translate-x-[100%]" : "-translate-x-[2%]"
-          }`}
-        />
-        <div className=" relative z-30 text-[#2322BC]">
-          <p className="h7 mt-3 font-bold">
-            จับจ้อง ส่องติดตาม
-            <br /> ‘คณะกรรมาธิการ’ รัฐสภา
-          </p>
-          <p className="b3 mt-3">
-            ที่คนเขาแอบกระซิบกันว่าการทำงาน
-            <br /> ที่แท้จริงของ สส. และ สว. เกิดขึ้นที่นี่ ?!
-          </p>
+      <div className=" relative">
+        <div className="h-screen sticky top-0 ">
+          <Image
+            src={landing_03}
+            alt="Background"
+            className={`absolute top-[-2%] scale-105 right-0 w-[50%] h-full transition-transform duration-700 ${
+              isVisible ? "translate-x-[100%]" : "translate-x-[-0%]"
+            }`}
+          />
+          <Image
+            src={landing_02}
+            alt="Background"
+            className={`absolute top-[-2%] scale-105 left-0 z-10 w-[50%] h-full transition-transform duration-700 ${
+              isVisible ? "-translate-x-[100%]" : "-translate-x-[2%]"
+            }`}
+          />
         </div>
-      </div>
-      <div className=" component b2 flex-col white_manu">
-        <div>
-          <span className=" font-bold">
-            หากย้อนดูศึกชิงเก้าอี้
-            <br /> ประธานคณะกรรมาธิการ
-          </span>
-          <br /> หรือ <span className=" font-bold">{`'กมธ.'`}</span> ระหว่าง
+        <div
+          className=" h-screen items-center relative flex flex-col  overflow-hidden white_manu"
+          id="action_page"
+        >
+          <Image
+            src={landing_toppic}
+            alt="Background"
+            className=" mt-20 w-[275px] z-30 md:w-[482px]"
+          />
+
+          <div className=" relative z-30 text-[#2322BC]">
+            <p className="h7 mt-3 font-bold">
+              จับจ้อง ส่องติดตาม
+              <br /> ‘คณะกรรมาธิการ’ รัฐสภา
+            </p>
+            <p className="b3 mt-3">
+              ที่คนเขาแอบกระซิบกันว่าการทำงาน
+              <br /> ที่แท้จริงของ สส. และ สว. เกิดขึ้นที่นี่ ?!
+            </p>
+          </div>
         </div>
-        <div>
-          <div className="h5 mt-5 bg-[#E2822B] font-bold py-2 px-4 rotate-3">
-            พรรคก้าวไกล
+        <div className=" component b2 flex-col white_manu" ref={actionRef}>
+          <div>
+            <span className=" font-bold">
+              หากย้อนดูศึกชิงเก้าอี้
+              <br /> ประธานคณะกรรมาธิการ
+            </span>
+            <br /> หรือ <span className=" font-bold">{`'กมธ.'`}</span> ระหว่าง
           </div>
-          <p className="b2">vs.</p>
-          <div className="h5 mt-3 bg-[#FF795B] font-bold py-2 px-4 -rotate-6">
-            พรรคเพื่อไทย
+          <div>
+            <div className="h5 mt-5 bg-[#E2822B] font-bold py-2 px-4 rotate-3">
+              พรรคก้าวไกล
+            </div>
+            <p className="b2">vs.</p>
+            <div className="h5 mt-3 bg-[#FF795B] font-bold py-2 px-4 -rotate-6">
+              พรรคเพื่อไทย
+            </div>
+            <p className="b5 mt-4">ในช่วงเดือนกันยายน 2566</p>
           </div>
-          <p className="b5 mt-4">ในช่วงเดือนกันยายน 2566</p>
         </div>
       </div>
       <CardSlide />

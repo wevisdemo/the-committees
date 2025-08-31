@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
 
-export default function ExpandCard({ item, isShowToppic, keywords }) {
+export default function ExpandCard({ item, isShowToppic, keywords, index }) {
   const [openSub, setOpenSub] = useState({});
   const [openInSub, setOpenInSub] = useState({});
 
@@ -23,7 +23,7 @@ export default function ExpandCard({ item, isShowToppic, keywords }) {
   return (
     <div className="border rounded-lg p-4  shadow-md w-full border-[#FBCB03]   bg-white ">
       <div className="flex items-center mb-2 justify-between">
-        <div className="b1 font-bold">{item.no}</div>
+        <div className="b1 font-bold">{index + 1}</div>
         <div className="text-sm text-[#4F4EC9]">{item.date}</div>
         <a target="_blank" rel="noopener noreferrer" href={item.site}>
           <ExternalLink className="w-[17px] cursor-pointer" />
@@ -60,7 +60,10 @@ export default function ExpandCard({ item, isShowToppic, keywords }) {
         <div className="mt-2 font-medium">{item.title}</div>
         {item.details?.map((d, idx) => (
           <div key={idx} className="border border-[#D3D3F2] rounded-md  ">
-            <p className="px-2 py-3 ">{d.title}</p>
+            <div
+              className="px-2 py-3 "
+              dangerouslySetInnerHTML={{ __html: d.title }}
+            />
             {d.details && (
               <>
                 <button
@@ -78,7 +81,10 @@ export default function ExpandCard({ item, isShowToppic, keywords }) {
                   <div className=" bg-[#D3D3F2] p-2 flex flex-col b4 space-y-3">
                     {d.details?.map((inD, idx) => (
                       <div key={idx} className=" bg-white rounded-md">
-                        <p className="px-2 py-3 ">{inD.title}</p>
+                        <div
+                          className="px-2 py-3 "
+                          dangerouslySetInnerHTML={{ __html: inD.title }}
+                        />
                         {inD.details && (
                           <>
                             <button
