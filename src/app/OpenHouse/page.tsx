@@ -15,9 +15,9 @@ const OpenHouse = () => {
   return (
     <>
       <ModalDetail open={open} onClose={() => setOpen(false)}>
-        <div className="w-full md:w-[600px] md:mt-10 relative pb-10 px-5  text-start text-[#2322BC] mx-auto bg-white md:rounded-lg  flex flex-col items-center">
+        <div className="w-full md:w-[600px] md:mt-10 relative pb-10 px-5  text-start text-[#2322BC]  bg-white md:rounded-lg  flex flex-col ">
           <div
-            className=" cursor-pointer  sticky top-0 left-[100%] p-5 "
+            className=" cursor-pointer  sticky top-0 left-[100%] p-5 w-fit"
             onClick={() => setOpen(false)}
           >
             <Image src={modal_close} alt="Background" className="w-[30px]" />
@@ -55,7 +55,9 @@ const OpenHouse = () => {
           </p>
           <p className="b5 mt-5">
             หลังจากนั้น ข้อมูลที่มีข้อผิดพลาดจะถูกส่งให้เครื่องมือ Gemini 2.5
-            flash ดึงซ้ำด้วยคำสั่งเดิม และถูกตรวจเช็กอีกรอบ
+            flash ดึงซ้ำด้วยคำสั่งเดิม และถูกตรวจ
+            <br className=" hidden md:block" />
+            เช็กอีกรอบ
           </p>
           <p className="b5 mt-5">
             เมื่อการดึงข้อมูลเสร็จสิ้น
