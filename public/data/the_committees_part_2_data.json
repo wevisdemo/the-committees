@@ -1,1204 +1,8 @@
 [
     {
-        "topic": "หน้าเว็บไซต์ กมธ.",
-        "total": 56,
-        "column": "G",
-        "representatives": {
-            "title": "สส.",
-            "open": 35,
-            "close": 0,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกีฬา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการตำรวจ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหาร",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยว",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครอง",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                }
-            ]
-        },
-        "senator": {
-            "title": "สว.",
-            "open": 21,
-            "close": 0,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                }
-            ]
-        }
-    },
-    {
-        "topic": "อำนาจหน้าที่ของ กมธ.",
-        "total": 56,
-        "column": "H",
-        "representatives": {
-            "title": "สส.",
-            "open": 30,
-            "close": 5,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
-                    "open": false,
-                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกีฬา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": false,
-                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการตำรวจ",
-                    "open": false,
-                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหาร",
-                    "open": false,
-                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยว",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครอง",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
-                    "open": false,
-                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                }
-            ]
-        },
-        "senator": {
-            "title": "สว.",
-            "open": 19,
-            "close": 2,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": false,
-                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": false,
-                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                }
-            ]
-        }
-    },
-    {
-        "topic": "ข้อมูลกรรมาธิการ (สมาชิก)",
-        "total": 56,
-        "column": "I",
-        "representatives": {
-            "title": "สส.",
-            "open": 35,
-            "close": 0,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกีฬา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการตำรวจ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหาร",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยว",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครอง",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                }
-            ]
-        },
-        "senator": {
-            "title": "สว.",
-            "open": 21,
-            "close": 0,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                }
-            ]
-        }
-    },
-    {
-        "topic": "เอกสารการประชุม เช่น กำหนดการประชุม สรุปการประชุม และ บันทึกการประชุม",
-        "total": 56,
-        "column": "J",
-        "representatives": {
-            "title": "สส.",
-            "open": 35,
-            "close": 0,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกีฬา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการตำรวจ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหาร",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยว",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครอง",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                },
-                {
-                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
-                    "open": true,
-                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
-                }
-            ]
-        },
-        "senator": {
-            "title": "สว.",
-            "open": 21,
-            "close": 0,
-            "lists": [
-                {
-                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการคมนาคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการต่างประเทศ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
-                },
-                {
-                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการแรงงาน",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการการสาธารณสุข",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                },
-                {
-                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
-                    "open": true,
-                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
-                }
-            ]
-        }
-    },
-    {
         "topic": "รายงาน กมธ.",
-        "total": 56,
-        "column": "K",
+        "total": 59,
+        "column": "G",
         "representatives": {
             "title": "สส.",
             "open": 19,
@@ -1384,7 +188,7 @@
         "senator": {
             "title": "สว.",
             "open": 0,
-            "close": 21,
+            "close": 22,
             "lists": [
                 {
                     "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
@@ -1490,14 +294,19 @@
                     "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
                     "open": false,
                     "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
                 }
             ]
         }
     },
     {
         "topic": "ข้อมูลศึกษาดูงาน/สัมมนา",
-        "total": 56,
-        "column": "L",
+        "total": 59,
+        "column": "H",
         "representatives": {
             "title": "สส.",
             "open": 15,
@@ -1683,7 +492,7 @@
         "senator": {
             "title": "สว.",
             "open": 9,
-            "close": 12,
+            "close": 13,
             "lists": [
                 {
                     "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
@@ -1789,14 +598,323 @@
                     "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
                     "open": false,
                     "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
+                }
+            ]
+        }
+    },
+    {
+        "topic": "อำนาจหน้าที่ของ กมธ.",
+        "total": 59,
+        "column": "I",
+        "representatives": {
+            "title": "สส.",
+            "open": 30,
+            "close": 5,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
+                    "open": false,
+                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกีฬา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": false,
+                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการตำรวจ",
+                    "open": false,
+                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหาร",
+                    "open": false,
+                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยว",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครอง",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
+                    "open": false,
+                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                }
+            ]
+        },
+        "senator": {
+            "title": "สว.",
+            "open": 19,
+            "close": 3,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": false,
+                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": false,
+                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
                 }
             ]
         }
     },
     {
         "topic": "ข่าวสารกิจกรรม (ภาพ)",
-        "total": 56,
-        "column": "M",
+        "total": 59,
+        "column": "J",
         "representatives": {
             "title": "สส.",
             "open": 34,
@@ -1982,7 +1100,7 @@
         "senator": {
             "title": "สว.",
             "open": 16,
-            "close": 5,
+            "close": 6,
             "lists": [
                 {
                     "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
@@ -2088,13 +1206,930 @@
                     "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
                     "open": true,
                     "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
+                }
+            ]
+        }
+    },
+    {
+        "topic": "หน้าเว็บไซต์ กมธ.",
+        "total": 59,
+        "column": "K",
+        "representatives": {
+            "title": "สส.",
+            "open": 35,
+            "close": 0,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกีฬา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการตำรวจ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหาร",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยว",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครอง",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                }
+            ]
+        },
+        "senator": {
+            "title": "สว.",
+            "open": 21,
+            "close": 1,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
+                }
+            ]
+        }
+    },
+    {
+        "topic": "ข้อมูลกรรมาธิการ (สมาชิก)",
+        "total": 59,
+        "column": "L",
+        "representatives": {
+            "title": "สส.",
+            "open": 35,
+            "close": 0,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกีฬา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการตำรวจ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหาร",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยว",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครอง",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                }
+            ]
+        },
+        "senator": {
+            "title": "สว.",
+            "open": 21,
+            "close": 1,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
+                }
+            ]
+        }
+    },
+    {
+        "topic": "เอกสารการประชุม เช่น กำหนดการประชุม สรุปการประชุม และ บันทึกการประชุม",
+        "total": 59,
+        "column": "M",
+        "representatives": {
+            "title": "สส.",
+            "open": 35,
+            "close": 0,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย การยุติธรรมและสิทธิมนุษยชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/105/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการสภาผู้แทนราษฎร",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/106/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการศาล องค์กรอิสระ องค์กรอัยการ รัฐวิสาหกิจ องค์การมหาชน และกองทุน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/107/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกีฬา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/108/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH "
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ ผู้พิการ กลุ่มชาติพันธุ์ และผู้มีความหลากหลายทางเพศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/109/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการแก้ปัญหาหนี้สิน ความยากจนและลดความเหลื่อมล้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/110/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/111/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/112/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการความมั่นคงแห่งรัฐ กิจการชายแดนไทย ยุทธศาสตร์ชาติและการปฏิรูปประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/113/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/114/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/115/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/116/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการตำรวจ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/117/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/118/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหาร",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/119/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยว",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/120/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการที่ดิน ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/121/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครอง",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/122/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการกระจายอำนาจ การปกครองส่วนท้องถิ่น และการบริหารราชการรูปแบบพิเศษ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/123/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันปราบปรามการฟอกเงินและยาเสพติด",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/124/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและบรรเทาผลกระทบจากภัยธรรมชาติและสาธารณภัย",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/125/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการป้องกันและปราบปรามการทุจริตประพฤติมิชอบ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/126/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/127/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การสื่อสารมวลชน และการมีส่วนร่วมของประชาชน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/128/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาเศรษฐกิจ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/129/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และทรัพย์สินทางปัญญา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/130/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/131/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/132/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารจัดการทรัพยากรน้ำ",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/133/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/134/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/135/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสวัสดิการสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/136/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/137/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสื่อสาร โทรคมนาคม และดิจิทัลเพื่อเศรษฐกิจและสังคม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/138/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                },
+                {
+                    "title": "คณะกรรมาธิการการอุตสาหกรรม",
+                    "open": true,
+                    "site": "https://www.parliament.go.th/view/139/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH"
+                }
+            ]
+        },
+        "senator": {
+            "title": "สว.",
+            "open": 21,
+            "close": 1,
+            "lists": [
+                {
+                    "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/412/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการเกษตรและสหกรณ์",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/428/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการคมนาคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/421/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการต่างประเทศ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/413/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการทหารและความมั่นคงของรัฐ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/410/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการท่องเที่ยวและการกีฬา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/422/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเทคโนโลยีสารสนเทศ การสื่อสาร และการโทรคมนาคม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/419/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการบริหารราชการแผ่นดิน",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/414/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการปกครองท้องถิ่น",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/430/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/ "
+                },
+                {
+                    "title": "คณะกรรมาธิการการพลังงาน วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/420/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาการเมือง การมีส่วนร่วมของประชาชน สิทธิมนุษยชน สิทธิ เสรีภาพ และการคุ้มครองผู้บริโภค",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/415/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพัฒนาสังคม และกิจการเด็ก เยาวชน สตรี ผู้สูงอายุ คนพิการ ผู้ด้อยโอกาส และความหลากหลายทางสังคม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/427/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/426/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการแรงงาน",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/423/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศาสนา คุณธรรม จริยธรรม ศิลปะและวัฒนธรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/418/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการศึกษา การอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/425/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการเศรษฐกิจ การเงิน และการคลัง",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/416/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการการสาธารณสุข",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/424/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการกิจการองค์กรอิสระตามรัฐธรรมนูญ การป้องกันและปราบปรามการทุจริต ประพฤติมิชอบ และการเสริมสร้างธรรมาภิบาล",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/411/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการติดตามการบริหารงบประมาณ",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/429/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
+                    "open": true,
+                    "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
                 }
             ]
         }
     },
     {
         "topic": "ข้อมูลคณะอนุ กมธ.",
-        "total": 56,
+        "total": 59,
         "column": "N",
         "representatives": {
             "title": "สส.",
@@ -2281,7 +2316,7 @@
         "senator": {
             "title": "สว.",
             "open": 21,
-            "close": 0,
+            "close": 1,
             "lists": [
                 {
                     "title": "คณะกรรมาธิการการกฎหมาย และการยุติธรรม",
@@ -2387,6 +2422,11 @@
                     "title": "คณะกรรมาธิการทรัพยากรธรรมชาติและสิ่งแวดล้อม วุฒิสภา",
                     "open": true,
                     "site": "https://www.senate.go.th/view/417/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/TH-TH/"
+                },
+                {
+                    "title": "คณะกรรมาธิการสามัญเพื่อทำหน้าที่ตรวจสอบประวัติ ความประพฤติ และพฤติกรรมทางจริยธรรมของบุคคลผู้ได้รับการเสนอชื่อให้ดำรงตำแหน่ง",
+                    "open": false,
+                    "site": "-"
                 }
             ]
         }

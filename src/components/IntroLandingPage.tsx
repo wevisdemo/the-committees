@@ -116,7 +116,7 @@ function IntroLandingPage() {
             className=" mt-20 w-[275px] z-30 md:w-[482px]"
           />
 
-          <div className=" relative z-30 text-[#2322BC]">
+          <div className=" relative text-center z-30 text-[#2322BC]">
             <p className="h7 mt-3 font-bold">
               จับจ้อง ส่องติดตาม
               <br /> ‘คณะกรรมาธิการ’ รัฐสภา
