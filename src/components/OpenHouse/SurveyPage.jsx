@@ -20,7 +20,8 @@ const SurveyPage = ({ onOpen }) => {
   const filteredData = filterByCommitteeAndKeyword(
     part_1,
     commissions,
-    keywords
+    keywords,
+    options
   );
 
   const summarize = summarizeKeywords(filteredData);
@@ -118,7 +119,10 @@ const SurveyPage = ({ onOpen }) => {
               {commissions && (
                 <Image
                   src={clear}
-                  onClick={() => setCommissions("")}
+                  onClick={() => {
+                    setCommissions("");
+                    setOptions("");
+                  }}
                   alt="Background"
                   className="w-[25px] h-[25px] ml-2 cursor-pointer"
                 />

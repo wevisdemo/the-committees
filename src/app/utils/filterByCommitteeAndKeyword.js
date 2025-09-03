@@ -1,4 +1,4 @@
-function filterByCommitteeAndKeyword(data, committeeName, keyword) {
+function filterByCommitteeAndKeyword(data, committeeName, keyword, options) {
   return data.filter((item) => {
     // ถ้าไม่ได้ส่ง committeeName มา → ผ่าน
     const matchCommittee =
@@ -11,8 +11,10 @@ function filterByCommitteeAndKeyword(data, committeeName, keyword) {
         k.toLowerCase().includes(keyword.toLowerCase())
       );
 
+    const matchOptions = !options || item.house === options;
+
     // ใช้ AND ทั้งคู่
-    return matchCommittee && matchKeyword;
+    return matchCommittee && matchKeyword && matchOptions;
   });
 }
 export default filterByCommitteeAndKeyword;

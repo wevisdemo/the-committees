@@ -5,30 +5,25 @@ function groupCommittee(data) {
   data.forEach((item) => {
     const committeeName = item.committee;
     const committeeHouse = item.house;
+    const key = `${committeeName}_${committeeHouse}`; // Create unique key combining name and house
 
-    if (!map[committeeName]) {
-      map[committeeName] = {
+    if (!map[key]) {
+      map[key] = {
         committee: committeeName,
         house: committeeHouse,
-        houses: new Set([committeeHouse]), // Track unique houses
         sum: 1,
       };
     } else {
-      map[committeeName].houses.add(committeeHouse);
-      // Update house field if both types exist
-      if (map[committeeName].houses.size > 1) {
-        map[committeeName].house = "สว.,สส.";
-      }
-      map[committeeName].sum += 1;
+      map[key].sum += 1;
     }
   });
 
+  // Convert map to array
   for (const key in map) {
-    const item = { ...map[key] };
-    delete item.houses; // Remove the tracking Set before returning
-    result.push(item);
+    result.push(map[key]);
   }
 
+  // Sort by sum descending
   result.sort((a, b) => b.sum - a.sum);
 
   return result;
