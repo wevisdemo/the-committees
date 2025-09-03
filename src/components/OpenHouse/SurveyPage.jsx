@@ -106,7 +106,7 @@ const SurveyPage = ({ onOpen }) => {
         <p className=" b5 mt-6">เลือกวิธีดูข้อมูล กมธ.</p>
       </div>
       <div className=" mx-auto container flex flex-col  md:flex-row relative bg-primary md:space-x-1 justify-center h-max ">
-        <div className="flex flex-col md:max-w-[330px] flex-1  md:sticky md:top-0 pt-6 h-fit ">
+        <div className="flex flex-col md:max-w-[330px] flex-1  md:sticky md:top-0 pt-6 h-fit md:overflow-auto md:mb-5  md:max-h-screen">
           <div className="flex flex-col gap-4 bg-[#D3D3F2] p-6 border text-[#2322BC] border-[#2322BC]  rounded-lg text-center">
             <p className=" h7 font-bold">เลือกสำรวจราย กมธ.</p>
             <div className="flex items-center">
@@ -177,7 +177,7 @@ const SurveyPage = ({ onOpen }) => {
             </a>
           </div>
           {/* //// */}
-          <div className=" bg-white text-[#2322BC] rounded-lg mt-1 py-4 text-center">
+          <div className=" bg-white text-[#2322BC] px-2 md:mb-2 rounded-lg mt-1 py-4 text-center">
             <p className="b3">ดูข้อมูลการประชุม</p>
             <p className=" h6 font-black">
               {commissions || "ทุกคณะกรรมาธิการ"}
