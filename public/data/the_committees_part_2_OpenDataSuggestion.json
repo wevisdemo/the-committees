@@ -2,15 +2,15 @@
     {
         "theme": "กมธ. กับการมีส่วนร่วมของประชาชน",
         "toppic": "<strong>การเข้าร่วมการประชุม กมธ.</strong>",
-        "สหราชอาณาจักร": "การประชุมของ กมธ. โดยส่วนใหญ่จะเปิดให้<strong>ประชาชนเข้าฟังได้</strong> โดยเริ่มจากการประชุมภายในก่อนเปิดรับฟังพยาน (take evidence) ประชาชนที่สนใจเข้าร่วมสามารถตรวจสอบวันเวลาและสถานที่ประชุมผ่านเว็บไซต์ [Parliamentary Calendar](<a href='https://whatson.parliament.uk/' target='_blank'>https://whatson.parliament.uk/</a>) โดยจำนวนที่นั่งจะมีจำกัด ",
+        "สหราชอาณาจักร": "การประชุมของ กมธ. โดยส่วนใหญ่จะเปิดให้<strong>ประชาชนเข้าฟังได้</strong> โดยเริ่มจากการประชุมภายในก่อนเปิดรับฟังพยาน (take evidence) ประชาชนที่สนใจเข้าร่วมสามารถตรวจสอบวันเวลาและสถานที่ประชุมผ่านเว็บไซต์ <u>[<a href='https://whatson.parliament.uk/' target='_blank'>Parliamentary Calendar</a>]</u> โดยจำนวนที่นั่งจะมีจำกัด ",
         "ออสเตรเลีย": "เปิดให้<strong>ประชาชนเข้าร่วมการประชุมเพื่อรับฟังความคิดเห็น</strong> (Public Hearing) จากผู้ที่มีประสบการณ์หรือความเชี่ยวชาญที่เกี่ยวข้องกับประเด็นที่ กมธ. กำลังศึกษา หรือเข้าร่วมในฐานะพยานต่อที่ประชุม",
         "ไทย": "<strong>ไม่มี</strong>การเปิดพื้นที่ให้ประชาชนเข้าร่วมหรือรับฟังการประชุมของ กมธ."
     },
     {
         "theme": "กมธ. กับการมีส่วนร่วมของประชาชน",
         "toppic": "<strong>การถ่ายทอดสดและวิดีโอบันทึกการประชุม กมธ.</strong>",
-        "สหราชอาณาจักร": "ประชาชนสามารถรับชมการประชุม กมธ. <strong>แบบสดและย้อนหลัง</strong>ที่ [Parliamentlive.tv]( <a href='https://parliamentlive.tv/Commons' target='_blank'>https://parliamentlive.tv/Commons</a>)",
-        "ออสเตรเลีย": "ประชาชนสามารถรับชมการประชุม กมธ. <strong>แบบสดและย้อนหลัง</strong>ที่ Youtube [@AUSparliamentLive](<a href='https://www.youtube.com/@AUSParliamentLive' target='_blank'>https://www.youtube.com/@AUSParliamentLive</a>) <br/>",
+        "สหราชอาณาจักร": "ประชาชนสามารถรับชมการประชุม กมธ. <strong>แบบสดและย้อนหลัง</strong>ที่ <u>[<a href='https://parliamentlive.tv/Commons' target='_blank'>Parliamentlive.tv/Commons</a>]</u>",
+        "ออสเตรเลีย": "ประชาชนสามารถรับชมการประชุม กมธ. <strong>แบบสดและย้อนหลัง</strong>ที่ Youtube <u>[<a href='https://www.youtube.com/@AUSParliamentLive' target='_blank'>@AUSparliamentLive</a>]</u> <br/>",
         "ไทย": "<strong>มีเพียง กมธ. ไม่กี่คณะที่มีการถ่ายทอดสดการประชุม</strong> ผ่าน Facebook Page เช่น <br/><ul class='list-disc list-inside space-y-1'><li> คณะกรรมาธิการศึกษาการจัดทำและติดตามการบริหารงบประมาณ </li><li> คณะกรรมาธิการการพัฒนาการเมืองฯ </li></ul>โดยส่วนใหญ่แล้วการประชุมของ กมธ. นั้น <strong>ไม่มีการถ่ายทอดสด</strong>"
     },
     {

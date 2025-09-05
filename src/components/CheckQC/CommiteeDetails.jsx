@@ -27,12 +27,12 @@ const CommiteeDetails = ({ selectedItem, clearSelection }) => {
     if (showOpen && showClose) return ""; // Show all (default to open)
   };
   let baseUrl;
-  if (getFilterStatus(filter.showOpen, filter.showClose)) {
-    baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')%20and%20${selectedItem.column}%20%3D%20TRUE`;
-  } else if (!getFilterStatus(filter.showOpen, filter.showClose)) {
-    baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')%20and%20${selectedItem.column}%20%3D%20FALSE`;
+  if (getFilterStatus(filter.showOpen, filter.showClose) === true) {
+    baseUrl = `https://docs.google.com/spreadsheets/d/17fw87F0dNkYKEEmK0Sb9VBC6ZgrgKrVOQ399XXRSaJE/gviz/tq?tqx=out:csv&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')%20and%20${selectedItem.column}%20%3D%20TRUE`;
+  } else if (getFilterStatus(filter.showOpen, filter.showClose) === false) {
+    baseUrl = `https://docs.google.com/spreadsheets/d/17fw87F0dNkYKEEmK0Sb9VBC6ZgrgKrVOQ399XXRSaJE/gviz/tq?tqx=out:csv&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')%20and%20${selectedItem.column}%20%3D%20FALSE`;
   } else {
-    baseUrl = `https://docs.google.com/spreadsheets/d/1E7GWQ0e5IlhsC6772cwu0yTAK4WtRHxU4MaAmROpMTc/gviz/tq?tqx=out:csv&gid=753054648&&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')`;
+    baseUrl = `https://docs.google.com/spreadsheets/d/17fw87F0dNkYKEEmK0Sb9VBC6ZgrgKrVOQ399XXRSaJE/gviz/tq?tqx=out:csv&tq=where(%20B%20%3D%20'${isRep}'%20or%20B%20%3D%20'${isSen}')`;
   }
 
   const filterData = useCallback((data, showOpen, showClose) => {

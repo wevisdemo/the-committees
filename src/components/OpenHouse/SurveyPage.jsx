@@ -29,7 +29,11 @@ const SurveyPage = ({ onOpen }) => {
     c.keyword.toLowerCase().includes(keywords.toLowerCase())
   );
 
-  const visibleData = filteredData.slice(0, visibleCount);
+  const sortedData = filteredData.sort(
+    (a, b) => new Date(a.date) - new Date(b.date)
+  );
+
+  const visibleData = sortedData.slice(0, visibleCount);
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 10);
@@ -51,12 +55,26 @@ const SurveyPage = ({ onOpen }) => {
     const formattedList = items
       ?.map((item, index) => {
         const cleanText = item.title.replace(/<br\s*\/?>/gi, " ");
-        // console.log(item.details, "item.details");
-        return `${index + 1}. ${cleanText}`;
+        const subDetails = item?.details
+          ?.map((subItem, subIndex) => {
+            console.log(subItem, "subItem.title");
+            return `${index + 1}.${subIndex + 1} ${subItem.title}`;
+          })
+          .join(" ");
+        // const subInSub = item?.details
+        //   ?.map((subItem, subIndex) => {
+        //     console.log(subItem, "subItem.title");
+        //     return `${index + 1}.${subIndex + 1} ${subItem.title}`;
+        //   })
+        //   .join(" ");
+
+        return `${index + 1}. ${cleanText} ${item.details}`;
       })
       .join(" ");
+    console.log(formattedList, "formattedList");
 
-    return `${formattedList}`;
+    // return `${formattedList}`;
+    return;
   };
 
   const convertToCSV = (data) => {

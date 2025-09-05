@@ -23,7 +23,7 @@ export default function ExpandCard({ item, isShowToppic, keywords, index }) {
   return (
     <div className="border rounded-lg p-4  shadow-md w-full border-[#FBCB03]   bg-white ">
       <div className="flex items-center mb-2 justify-between">
-        <div className="b1 font-bold">{index + 1}</div>
+        <div className="b1 font-bold">{item.no}</div>
         <div className="text-sm text-[#4F4EC9]">{item.date}</div>
         <a target="_blank" rel="noopener noreferrer" href={item.site}>
           <ExternalLink className="w-[17px] cursor-pointer" />

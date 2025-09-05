@@ -29,7 +29,7 @@ const OpenHouse = () => {
             <a
               href="https://www.parliament.go.th/view/1/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%8D/TH-TH"
               target="_blank"
-              className="underline inline cursor-pointer"
+              className="underline inline cursor-pointer "
             >
               เว็บไซต์สภาผู้แทน ราษฎร
             </a>
