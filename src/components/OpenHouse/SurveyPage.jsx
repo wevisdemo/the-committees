@@ -57,24 +57,24 @@ const SurveyPage = ({ onOpen }) => {
         const cleanText = item.title.replace(/<br\s*\/?>/gi, " ");
         const subDetails = item?.details
           ?.map((subItem, subIndex) => {
-            console.log(subItem, "subItem.title");
-            return `${index + 1}.${subIndex + 1} ${subItem.title}`;
+            const subInSub = subItem?.details
+              ?.map((subInItem, subInIndex) => {
+                return `${index + 1}.${subIndex + 1}.${subInIndex + 1} ${
+                  subInItem.title || " "
+                }`;
+              })
+              .join(" ");
+            return `${index + 1}.${subIndex + 1} ${subItem.title} ${
+              subInSub || ""
+            }`;
           })
           .join(" ");
-        // const subInSub = item?.details
-        //   ?.map((subItem, subIndex) => {
-        //     console.log(subItem, "subItem.title");
-        //     return `${index + 1}.${subIndex + 1} ${subItem.title}`;
-        //   })
-        //   .join(" ");
 
-        return `${index + 1}. ${cleanText} ${item.details}`;
+        return `${index + 1}. ${cleanText} ${subDetails || ""}`;
       })
       .join(" ");
-    console.log(formattedList, "formattedList");
 
-    // return `${formattedList}`;
-    return;
+    return `${formattedList}`;
   };
 
   const convertToCSV = (data) => {
