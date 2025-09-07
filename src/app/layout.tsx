@@ -3,6 +3,7 @@ import "../styles/component.css";
 import "../styles/globals.css";
 import "../styles/fonts.css";
 import Header from "./Header";
+import Analytics from "./Analytics";
 
 const description =
   "คณะกรรมาธิการประจำรัฐสภา หรือ ‘กมธ.’ เปรียบเสมือนห้องประชุมสภาขนาดเล็กที่ทำหน้าที่พิจารณาศึกษาปัญหาและหาข้อเท็จตามที่สภากำหนด จึงเป็นเรื่องสำคัญที่จะต้อง ‘เข้าใจ’ ว่า กมธ. คืออะไร มีบทบาทอย่างไร รวมถึง ‘ติดตาม’ กระบวนการทำงานของ กมธ. ว่าเป็นอย่างไร ชวนหาตอบคำถามสำคัญว่าในช่วง 2 ปีที่ผ่านมา กมธ. ทำงานเพื่อผลักดันประเด็นอะไรบ้าง กมธ. มีการเปิดเผยข้อมูลอะไรและในลักษณะไหน และนักวิชาการมีความเห็นต่อโครงสร้างและอำนาจของ กมธ. ในปัจจุบันอย่างไร";
@@ -51,6 +52,7 @@ export default function RootLayout({
         <div className=" relative ">
           <Header />
           <div className=" ">{children}</div>
+          <Analytics />
         </div>
       </body>
     </html>

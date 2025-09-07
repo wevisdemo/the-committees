@@ -66,21 +66,21 @@ const NavigationPage = ({ setOpen }) => {
       </p>
       <div className=" mt-3 underline z-10 b4 mb-5 ">กดเลือกสำรวจเนื้อหา</div>
       <div className=" flex space-x-3 z-10  overflow-hidden">
-        <Link href="/OpenHouse">
+        <Link href="/openhouse">
           <Image
             src={navigation_01}
             alt="Background"
             className=" max-w-[95px] md:max-w-[142px] "
           />
         </Link>
-        <Link href="/CheckQC">
+        <Link href="/checkqc">
           <Image
             src={navigation_02}
             alt="Background"
             className="  max-w-[95px] md:max-w-[142px]"
           />
         </Link>
-        <Link href="/Trending">
+        <Link href="/trending">
           <Image
             src={navigation_03}
             alt="Background"

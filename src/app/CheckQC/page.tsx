@@ -1,10 +1,15 @@
-import CommiteeOpenData from "@/components/CheckQC/CommiteeOpenData";
-import CommiteeSurvey from "@/components/CheckQC/CommiteeSurvey";
-import IntroLandingPage from "@/components/CheckQC/IntroLandingPage";
-import LastPage from "@/components/CheckQC/LastPage";
-import SurveyPage from "@/components/CheckQC/SurveyPage";
+import CommiteeOpenData from "@/components/checkqc/CommiteeOpenData";
+import CommiteeSurvey from "@/components/checkqc/CommiteeSurvey";
+import IntroLandingPage from "@/components/checkqc/IntroLandingPage";
+import LastPage from "@/components/checkqc/LastPage";
+import SurveyPage from "@/components/checkqc/SurveyPage";
 import React from "react";
-import BenefitPage from "@/components/CheckQC/BenefitPage";
+import BenefitPage from "@/components/checkqc/BenefitPage";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Check QC | The Committees",
+};
 
 const CheckQC = () => {
   return (

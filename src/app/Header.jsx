@@ -19,10 +19,10 @@ const Header = () => {
   const manu = [
     { title: "หน้าแรก", link: "/" },
     { title: "หน้าสารบัญ", link: "#navigation" },
-    { title: "เปิดบ้าน กมธ. แต่ละวัน\n\nทำอะไรบ้าง ?", link: "/OpenHouse" },
-    { title: "เช็ก QC กมธ. เปิดข้อมูลอะไร\n\nให้เราดู ?", link: "/CheckQC" },
-    { title: "กมธ. รุ่นนี้ ถูกพูดถึงอย่างไร ?", link: "/Trending" },
-    { title: "About Us", link: "/About" },
+    { title: "เปิดบ้าน กมธ. แต่ละวัน\n\nทำอะไรบ้าง ?", link: "/openhouse" },
+    { title: "เช็ก QC กมธ. เปิดข้อมูลอะไร\n\nให้เราดู ?", link: "/checkqc" },
+    { title: "กมธ. รุ่นนี้ ถูกพูดถึงอย่างไร ?", link: "/trending" },
+    { title: "About Us", link: "/about" },
   ];
 
   const controlNavbar = () => {
