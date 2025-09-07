@@ -1,5 +1,5 @@
 import React from "react";
-import Landing from "@/components/openhouse/Landing";
+import Landing from "@/components/openhousee/Landing";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

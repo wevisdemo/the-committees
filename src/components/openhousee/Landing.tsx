@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import ModalDetail from "@/components/ModalDetail";
-import IntroOpenHouse from "@/components/openhouse/IntroOpenHouse";
-import LastPage from "@/components/openhouse/LastPage";
+import IntroOpenHouse from "@/components/openhousee/IntroOpenHouse";
+import LastPage from "@/components/openhousee/LastPage";
 import modal_close from "assets/images/modal_close.png";
-import ReasonPage from "@/components/openhouse/ReasonPage";
-import SurveyPage from "@/components/openhouse/SurveyPage";
-import YearPass from "@/components/openhouse/YearPass";
+import ReasonPage from "@/components/openhousee/ReasonPage";
+import SurveyPage from "@/components/openhousee/SurveyPage";
+import YearPass from "@/components/openhousee/YearPass";
 import React, { useState } from "react";
 
 const Landing = () => {
