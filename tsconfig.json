@@ -40,7 +40,7 @@
     "src/components/openhouse/SurveyPage.jsx",
     "src/components/openhouse/SuggestionListOfKeyWord.jsx",
     "next.config.js",
-    "src/components/trending/InDetailsPage.jsx",
+    "src/components/trendingg/InDetailsPage.jsx",
     "src/components/NavigationPage.jsx",
     "src/app/utils/Analytics.jsx"
   ],
