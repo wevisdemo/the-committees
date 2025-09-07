@@ -1,7 +1,6 @@
 const repoName = "the-committees";
 
 const nextConfig = {
-  output: "export",
   basePath: `/${repoName}`,
   assetPrefix: `/${repoName}/`,
   images: {
